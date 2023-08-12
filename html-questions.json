@@ -1,0 +1,802 @@
+[
+  {
+    "title": "What does HTML stand for?",
+    "answer_1": "Hyper Transfer Markup Language",
+    "answer_2": "Hyper Text Markup Language",
+    "answer_3": "High Tech Markup Language",
+    "answer_4": "Hyperlink and Text Markup Language",
+    "right_answer": "Hyper Text Markup Language"
+  },
+  {
+    "title": "Which HTML tag is used to define the title of a webpage?",
+    "answer_1": "<header>",
+    "answer_2": "<title>",
+    "answer_3": "<h1>",
+    "answer_4": "<meta>",
+    "right_answer": "<title>"
+  },
+  {
+    "title": "Which HTML tag is used to create a hyperlink?",
+    "answer_1": "<a>",
+    "answer_2": "<link>",
+    "answer_3": "<hlink>",
+    "answer_4": "<hyper>",
+    "right_answer": "<a>"
+  },
+  {
+    "title": "What is the purpose of the <img> tag in HTML?",
+    "answer_1": "Create a new image element.",
+    "answer_2": "Import external CSS files.",
+    "answer_3": "Insert a line break.",
+    "answer_4": "Display images on a webpage.",
+    "right_answer": "Display images on a webpage."
+  },
+  {
+    "title": "Which HTML element is used to define the structure of an HTML document?",
+    "answer_1": "<format>",
+    "answer_2": "<layout>",
+    "answer_3": "<body>",
+    "answer_4": "<html>",
+    "right_answer": "<html>"
+  },
+  {
+    "title": "Which attribute is used to provide alternative text for images?",
+    "answer_1": "alt",
+    "answer_2": "title",
+    "answer_3": "src",
+    "answer_4": "description",
+    "right_answer": "alt"
+  },
+  {
+    "title": "What is the correct way to create a numbered list in HTML?",
+    "answer_1": "<ul>",
+    "answer_2": "<list>",
+    "answer_3": "<ol>",
+    "answer_4": "<dl>",
+    "right_answer": "<ol>"
+  },
+  {
+    "title": "Which tag is used to define the main content of an HTML page?",
+    "answer_1": "<main>",
+    "answer_2": "<body>",
+    "answer_3": "<content>",
+    "answer_4": "<section>",
+    "right_answer": "<main>"
+  },
+  {
+    "title": "Which HTML element is used to define a table row?",
+    "answer_1": "<td>",
+    "answer_2": "<row>",
+    "answer_3": "<tr>",
+    "answer_4": "<th>",
+    "right_answer": "<tr>"
+  },
+  {
+    "title": "Which attribute is used to make text bold in HTML?",
+    "answer_1": "bold",
+    "answer_2": "strong",
+    "answer_3": "style",
+    "answer_4": "b",
+    "right_answer": "b"
+  },
+  {
+    "title": "Which HTML element is used to create a text input field?",
+    "answer_1": "<input type=\"text\">",
+    "answer_2": "<textfield>",
+    "answer_3": "<textinput>",
+    "answer_4": "<textbox>",
+    "right_answer": "<input type=\"text\">"
+  },
+  {
+    "title": "How can you create a dropdown/select list in HTML?",
+    "answer_1": "<list>",
+    "answer_2": "<dropdown>",
+    "answer_3": "<select>",
+    "answer_4": "<menu>",
+    "right_answer": "<select>"
+  },
+  {
+    "title": "What is the purpose of the <form> tag in HTML?",
+    "answer_1": "Create a new webpage.",
+    "answer_2": "Display images.",
+    "answer_3": "Define a form for user input.",
+    "answer_4": "Add external JavaScript files.",
+    "right_answer": "Define a form for user input."
+  },
+  {
+    "title": "Which input type is used for submitting a form?",
+    "answer_1": "<input type=\"submit\">",
+    "answer_2": "<input type=\"button\">",
+    "answer_3": "<input type=\"send\">",
+    "answer_4": "<input type=\"form\">",
+    "right_answer": "<input type=\"submit\">"
+  },
+  {
+    "title": "How do you specify where form data should be sent in HTML?",
+    "answer_1": "<form action=\"\">",
+    "answer_2": "<form link=\"\">",
+    "answer_3": "<form target=\"\">",
+    "answer_4": "<form send=\"\">",
+    "right_answer": "<form action=\"\">"
+  },
+  {
+    "title": "How do you open a link in a new browser tab/window?",
+    "answer_1": "<a href=\"url\" target=\"_blank\">",
+    "answer_2": "<a href=\"url\" newtab=\"true\">",
+    "answer_3": "<a href=\"url\" window=\"new\">",
+    "answer_4": "<a href=\"url\" open=\"new\">",
+    "right_answer": "<a href=\"url\" target=\"_blank\">"
+  },
+  {
+    "title": "Which HTML element is used to embed video content?",
+    "answer_1": "<movie>",
+    "answer_2": "<video>",
+    "answer_3": "<media>",
+    "answer_4": "<embed>",
+    "right_answer": "<video>"
+  },
+  {
+    "title": "What does the <iframe> tag do in HTML?",
+    "answer_1": "Display an inline frame of another webpage.",
+    "answer_2": "Create a floating frame for images.",
+    "answer_3": "Insert a formatted text box.",
+    "answer_4": "Implement interactive forms.",
+    "right_answer": "Display an inline frame of another webpage."
+  },
+  {
+    "title": "How can you include an audio file in an HTML document?",
+    "answer_1": "<audio src=\"audio.mp3\">",
+    "answer_2": "<sound src=\"audio.mp3\">",
+    "answer_3": "<mp3 src=\"audio.mp3\">",
+    "answer_4": "<music src=\"audio.mp3\">",
+    "right_answer": "<audio src=\"audio.mp3\">"
+  },
+  {
+    "title": "Which attribute is used to specify an image's source URL in HTML?",
+    "answer_1": "src",
+    "answer_2": "href",
+    "answer_3": "img",
+    "answer_4": "link",
+    "right_answer": "src"
+  },
+  {
+    "title": "What is the purpose of CSS in HTML?",
+    "answer_1": "Define the structure of the page.",
+    "answer_2": "Create interactivity using JavaScript.",
+    "answer_3": "Add styling and layout to the page.",
+    "answer_4": "Insert external media files.",
+    "right_answer": "Add styling and layout to the page."
+  },
+  {
+    "title": "Which HTML tag is used to include an external CSS file?",
+    "answer_1": "<css>",
+    "answer_2": "<style>",
+    "answer_3": "<link>",
+    "answer_4": "<script>",
+    "right_answer": "<link>"
+  },
+  {
+    "title": "How can you apply inline CSS to an HTML element?",
+    "answer_1": "<style>",
+    "answer_2": "<css>",
+    "answer_3": "<inline>",
+    "answer_4": "style attribute",
+    "right_answer": "style attribute"
+  },
+  {
+    "title": "Which property is used to change the text color in CSS?",
+    "answer_1": "text-color",
+    "answer_2": "color",
+    "answer_3": "font-color",
+    "answer_4": "txt-color",
+    "right_answer": "color"
+  },
+  {
+    "title": "What is the correct way to comment out multiple lines in CSS?",
+    "answer_1": "/* This is a comment */",
+    "answer_2": "// This is a comment //",
+    "answer_3": "<!-- This is a comment -->",
+    "answer_4": "* This is a comment *",
+    "right_answer": "/* This is a comment */"
+  },
+  {
+    "title": "Which HTML element represents the main content of a webpage?",
+    "answer_1": "<content>",
+    "answer_2": "<main>",
+    "answer_3": "<body>",
+    "answer_4": "<article>",
+    "right_answer": "<main>"
+  },
+  {
+    "title": "Which element is used to group header content in HTML5?",
+    "answer_1": "<header>",
+    "answer_2": "<top>",
+    "answer_3": "<head>",
+    "answer_4": "<hgroup>",
+    "right_answer": "<header>"
+  },
+  {
+    "title": "What is the purpose of the <nav> element in HTML5?",
+    "answer_1": "Display a navigation bar.",
+    "answer_2": "Create a new webpage section.",
+    "answer_3": "Embed videos.",
+    "answer_4": "Define a footer.",
+    "right_answer": "Display a navigation bar."
+  },
+  {
+    "title": "Which HTML5 element is used to define self-contained compositions?",
+    "answer_1": "<section>",
+    "answer_2": "<content>",
+    "answer_3": "<composition>",
+    "answer_4": "<article>",
+    "right_answer": "<article>"
+  },
+  {
+    "title": "Which HTML element is used to define additional information that can be displayed on demand?",
+    "answer_1": "<info>",
+    "answer_2": "<summary>",
+    "answer_3": "<expand>",
+    "answer_4": "<details>",
+    "right_answer": "<details>"
+  },
+  {
+    "title": "How can you create a radio button in HTML?",
+    "answer_1": "<input type=\"radio\">",
+    "answer_2": "<radio>",
+    "answer_3": "<input type=\"checkbox\">",
+    "answer_4": "<input type=\"option\">",
+    "right_answer": "<input type=\"radio\">"
+  },
+  {
+    "title": "Which input type is used for allowing users to choose a date?",
+    "answer_1": "<input type=\"calendar\">",
+    "answer_2": "<input type=\"date\">",
+    "answer_3": "<input type=\"datetime\">",
+    "answer_4": "<input type=\"time\">",
+    "right_answer": "<input type=\"date\">"
+  },
+  {
+    "title": "What is the purpose of the <textarea> element in HTML?",
+    "answer_1": "Create text with a special font.",
+    "answer_2": "Display a code snippet.",
+    "answer_3": "Allow multiline text input.",
+    "answer_4": "Create a table.",
+    "right_answer": "Allow multiline text input."
+  },
+  {
+    "title": "Which input type is used for file uploads in HTML?",
+    "answer_1": "<input type=\"upload\">",
+    "answer_2": "<input type=\"file\">",
+    "answer_3": "<input type=\"attach\">",
+    "answer_4": "<input type=\"document\">",
+    "right_answer": "<input type=\"file\">"
+  },
+  {
+    "title": "How can you create a checkbox in HTML?",
+    "answer_1": "<input type=\"checkbox\">",
+    "answer_2": "<checkbox>",
+    "answer_3": "<input type=\"check\">",
+    "answer_4": "<input type=\"toggle\">",
+    "right_answer": "<input type=\"checkbox\">"
+  },
+  {
+    "title": "What is the purpose of the <meta> tag in HTML?",
+    "answer_1": "Add images to the page.",
+    "answer_2": "Define the main content area.",
+    "answer_3": "Provide metadata about the HTML document.",
+    "answer_4": "Link to external resources.",
+    "right_answer": "Provide metadata about the HTML document."
+  },
+  {
+    "title": "Which attribute is used to set the character encoding of an HTML document?",
+    "answer_1": "charset",
+    "answer_2": "encoding",
+    "answer_3": "character",
+    "answer_4": "meta-charset",
+    "right_answer": "charset"
+  },
+  {
+    "title": "How can you set the viewport for a responsive webpage?",
+    "answer_1": "<viewport>",
+    "answer_2": "<meta viewport=\"\">",
+    "answer_3": "<viewport-meta>",
+    "answer_4": "<meta name=\"viewport\">",
+    "right_answer": "<meta name=\"viewport\">"
+  },
+  {
+    "title": "Which HTML element is used to define a shortcut icon for a webpage?",
+    "answer_1": "<icon>",
+    "answer_2": "<shortcut>",
+    "answer_3": "<img>",
+    "answer_4": "<link rel=\"icon\">",
+    "right_answer": "<link rel=\"icon\">"
+  },
+  {
+    "title": "What is the purpose of the <base> tag in HTML?",
+    "answer_1": "Define the base color of the page.",
+    "answer_2": "Set the base URL for relative URLs in the document.",
+    "answer_3": "Add a base font.",
+    "answer_4": "Specify the document type.",
+    "right_answer": "Set the base URL for relative URLs in the document."
+  },
+  {
+    "title": "What does the <aside> element represent in HTML?",
+    "answer_1": "Additional content related to the main content.",
+    "answer_2": "The main content of the page.",
+    "answer_3": "A footer section.",
+    "answer_4": "A navigation bar.",
+    "right_answer": "Additional content related to the main content."
+  },
+  {
+    "title": "Which HTML element is used to define a quotation in the text?",
+    "answer_1": "<quote>",
+    "answer_2": "<q>",
+    "answer_3": "<blockquote>",
+    "answer_4": "<text>",
+    "right_answer": "<q>"
+  },
+  {
+    "title": "What is the purpose of the <mark> element in HTML?",
+    "answer_1": "Display a highlighted text.",
+    "answer_2": "Create a navigation menu.",
+    "answer_3": "Insert a comment.",
+    "answer_4": "Define a keyword.",
+    "right_answer": "Display a highlighted text."
+  },
+  {
+    "title": "Which HTML element is used to display computer code?",
+    "answer_1": "<code>",
+    "answer_2": "<pre>",
+    "answer_3": "<computer>",
+    "answer_4": "<text>",
+    "right_answer": "<code>"
+  },
+  {
+    "title": "What does the <abbr> element represent in HTML?",
+    "answer_1": "A block of text.",
+    "answer_2": "An abbreviation or acronym.",
+    "answer_3": "A highlighted section.",
+    "answer_4": "A bulleted list.",
+    "right_answer": "An abbreviation or acronym."
+  },
+  {
+    "title": "Which HTML element is used to create an unordered list?",
+    "answer_1": "<ol>",
+    "answer_2": "<u>",
+    "answer_3": "<list>",
+    "answer_4": "<ul>",
+    "right_answer": "<ul>"
+  },
+  {
+    "title": "What is the purpose of the <th> element in an HTML table?",
+    "answer_1": "Define a table header cell.",
+    "answer_2": "Create a new table row.",
+    "answer_3": "Insert a table heading.",
+    "answer_4": "Add a table footer.",
+    "right_answer": "Define a table header cell."
+  },
+  {
+    "title": "How can you merge cells horizontally in an HTML table?",
+    "answer_1": "<merge>",
+    "answer_2": "<colspan>",
+    "answer_3": "<rowspan>",
+    "answer_4": "<colmerge>",
+    "right_answer": "<colspan>"
+  },
+  {
+    "title": "Which attribute is used to set the alignment of table cells in HTML?",
+    "answer_1": "align",
+    "answer_2": "valign",
+    "answer_3": "cell-align",
+    "answer_4": "cell-valign",
+    "right_answer": "align"
+  },
+  {
+    "title": "What is the purpose of the <caption> element in an HTML table?",
+    "answer_1": "Display a table caption.",
+    "answer_2": "Create a new table section.",
+    "answer_3": "Define a table summary.",
+    "answer_4": "Add a table header.",
+    "right_answer": "Display a table caption."
+  },
+  {
+    "title": "How can you create a link that opens the user's email client?",
+    "answer_1": "<a href=\"mailto:email@example.com\">",
+    "answer_2": "<a email=\"email@example.com\">",
+    "answer_3": "<a href=\"email:email@example.com\">",
+    "answer_4": "<a mailto=\"email@example.com\">",
+    "right_answer": "<a href=\"mailto:email@example.com\">"
+  },
+  {
+    "title": "What is the purpose of the <nav> element in HTML?",
+    "answer_1": "Create a navigation bar.",
+    "answer_2": "Display images.",
+    "answer_3": "Define the main content of a page.",
+    "answer_4": "Embed videos.",
+    "right_answer": "Create a navigation bar."
+  },
+  {
+    "title": "Which HTML element is used to create bookmarks within a page?",
+    "answer_1": "<anchor>",
+    "answer_2": "<mark>",
+    "answer_3": "<bookmark>",
+    "answer_4": "<a name=\"\">",
+    "right_answer": "<a name=\"\">"
+  },
+  {
+    "title": "How can you create a link that jumps to a specific section within a page?",
+    "answer_1": "<a href=\"section_id\">",
+    "answer_2": "<a target=\"section_id\">",
+    "answer_3": "<a link=\"section_id\">",
+    "answer_4": "<a href=\"#section_id\">",
+    "right_answer": "<a href=\"#section_id\">"
+  },
+  {
+    "title": "What is the purpose of the <base> tag in HTML?",
+    "answer_1": "Define the base font size of the page.",
+    "answer_2": "Specify the document type.",
+    "answer_3": "Set the base URL for relative URLs in the document.",
+    "answer_4": "Add a base color to the page.",
+    "right_answer": "Set the base URL for relative URLs in the document."
+  },
+  {
+    "title": "Which attribute is used to specify the image's width in HTML?",
+    "answer_1": "size",
+    "answer_2": "width",
+    "answer_3": "style",
+    "answer_4": "img-width",
+    "right_answer": "width"
+  },
+  {
+    "title": "How can you embed a video from YouTube in HTML?",
+    "answer_1": "<video src=\"youtube.com/video_id\">",
+    "answer_2": "<youtube src=\"video_id\">",
+    "answer_3": "<iframe src=\"youtube.com/video_id\">",
+    "answer_4": "<embed src=\"youtube.com/video_id\">",
+    "right_answer": "<iframe src=\"youtube.com/video_id\">"
+  },
+  {
+    "title": "What is the purpose of the <figure> element in HTML?",
+    "answer_1": "Display images in a gallery.",
+    "answer_2": "Group images and their captions together.",
+    "answer_3": "Create a table.",
+    "answer_4": "Embed videos.",
+    "right_answer": "Group images and their captions together."
+  },
+  {
+    "title": "How can you make an image a link in HTML?",
+    "answer_1": "<a href=\"image.jpg\"><img src=\"image.jpg\"></a>",
+    "answer_2": "<img link=\"image.jpg\">",
+    "answer_3": "<image src=\"image.jpg\" link=\"true\">",
+    "answer_4": "<img src=\"image.jpg\" href=\"image.jpg\">",
+    "right_answer": "<a href=\"image.jpg\"><img src=\"image.jpg\"></a>"
+  },
+  {
+    "title": "What is the purpose of the <audio> element in HTML?",
+    "answer_1": "Display audio files.",
+    "answer_2": "Create a sound effect.",
+    "answer_3": "Add background music.",
+    "answer_4": "Embed YouTube videos.",
+    "right_answer": "Display audio files."
+  },
+  {
+    "title": "How can you create a dropdown/select list with multiple selections allowed?",
+    "answer_1": "<select multiple=\"true\">",
+    "answer_2": "<select mode=\"multiple\">",
+    "answer_3": "<select type=\"multiple\">",
+    "answer_4": "<select multiple>",
+    "right_answer": "<select multiple=\"true\">"
+  },
+  {
+    "title": "Which input type is used for entering a password?",
+    "answer_1": "<input type=\"password\">",
+    "answer_2": "<input type=\"secure\">",
+    "answer_3": "<input type=\"text\" password=\"true\">",
+    "answer_4": "<input type=\"pass\">",
+    "right_answer": "<input type=\"password\">"
+  },
+  {
+    "title": "What is the purpose of the \"required\" attribute in HTML form inputs?",
+    "answer_1": "Indicate that the input is optional.",
+    "answer_2": "Highlight the input field.",
+    "answer_3": "Ensure that the user provides a value before submitting the form.",
+    "answer_4": "Disable the input field.",
+    "right_answer": "Ensure that the user provides a value before submitting the form."
+  },
+  {
+    "title": "How can you create a slider input in HTML?",
+    "answer_1": "<input type=\"slider\">",
+    "answer_2": "<slider input>",
+    "answer_3": "<input type=\"range\">",
+    "answer_4": "<input range=\"slider\">",
+    "right_answer": "<input type=\"range\">"
+  },
+  {
+    "title": "What is the correct way to create a reset button in an HTML form?",
+    "answer_1": "<input type=\"reset\">",
+    "answer_2": "<button type=\"reset\">",
+    "answer_3": "<reset-button>",
+    "answer_4": "<input type=\"button\" value=\"Reset\">",
+    "right_answer": "<input type=\"reset\">"
+  },
+  {
+    "title": "How can you set the border width of a table in HTML?",
+    "answer_1": "<table border=\"width\">",
+    "answer_2": "<table style=\"border-width\">",
+    "answer_3": "<table border-width=\"width\">",
+    "answer_4": "<table border=\"width\">",
+    "right_answer": "<table border=\"width\">"
+  },
+  {
+    "title": "Which HTML element is used to create a multi-line input field?",
+    "answer_1": "<input type=\"text\">",
+    "answer_2": "<input type=\"multiline\">",
+    "answer_3": "<input type=\"textarea\">",
+    "answer_4": "<textarea>",
+    "right_answer": "<textarea>"
+  },
+  {
+    "title": "What is the purpose of the <fieldset> element in HTML forms?",
+    "answer_1": "Define a group of related form elements.",
+    "answer_2": "Create a button.",
+    "answer_3": "Specify a form's action.",
+    "answer_4": "Indicate a required input.",
+    "right_answer": "Define a group of related form elements."
+  },
+  {
+    "title": "<radio option=\"option2\">",
+    "answer_1": "<input type=\"radio\" name=\"group\" value=\"option1\">",
+    "answer_2": "<input type=\"radio\" value=\"option1\">",
+    "answer_3": "<radio name=\"group\" value=\"option1\">",
+    "answer_4": "<radio-group>",
+    "right_answer": "<input type=\"radio\" name=\"group\" value=\"option1\">"
+  },
+  {
+    "title": "What does the \"method\" attribute in a form element specify?",
+    "answer_1": "The name of the form.",
+    "answer_2": "The server-side script to process the form data.",
+    "answer_3": "The action to perform when the form is submitted.",
+    "answer_4": "The encryption algorithm to use for form data.",
+    "right_answer": "The server-side script to process the form data."
+  },
+  {
+    "title": "How can you mark text as emphasized in HTML?",
+    "answer_1": "<em>",
+    "answer_2": "<i>",
+    "answer_3": "<italic>",
+    "answer_4": "<strong>",
+    "right_answer": "<em>"
+  },
+  {
+    "title": "What is the purpose of the <figcaption> element in HTML5?",
+    "answer_1": "Display a figure's caption or description.",
+    "answer_2": "Define a footer for a section.",
+    "answer_3": "Create a link to another webpage.",
+    "answer_4": "Embed images.",
+    "right_answer": "Display a figure's caption or description."
+  },
+  {
+    "title": "How can you create a subscript text in HTML?",
+    "answer_1": "<sub>",
+    "answer_2": "<sup>",
+    "answer_3": "<subscript>",
+    "answer_4": "<text sub>",
+    "right_answer": "<sub>"
+  },
+  {
+    "title": "What does the <time> element represent in HTML5?",
+    "answer_1": "Display a timer.",
+    "answer_2": "Indicate the current time.",
+    "answer_3": "Mark a significant time or date.",
+    "answer_4": "Embed video content.",
+    "right_answer": "Mark a significant time or date."
+  },
+  {
+    "title": "How can you create a blockquote in HTML?",
+    "answer_1": "<quote>",
+    "answer_2": "<blockquote>",
+    "answer_3": "<q>",
+    "answer_4": "<blocktext>",
+    "right_answer": "<blockquote>"
+  },
+  {
+    "title": "How can you embed a PDF document in an HTML page?",
+    "answer_1": "<embed src=\"document.pdf\">",
+    "answer_2": "<pdf src=\"document.pdf\">",
+    "answer_3": "<iframe src=\"document.pdf\">",
+    "answer_4": "<object data=\"document.pdf\">",
+    "right_answer": "<object data=\"document.pdf\">"
+  },
+  {
+    "title": "What is the purpose of the <audio> element in HTML?",
+    "answer_1": "Display audio files.",
+    "answer_2": "Embed video content.",
+    "answer_3": "Create sound effects.",
+    "answer_4": "Add background music.",
+    "right_answer": "Display audio files."
+  },
+  {
+    "title": "How can you include a video hosted on your website using HTML5?",
+    "answer_1": "<video src=\"video.mp4\">",
+    "answer_2": "<video link=\"video.mp4\">",
+    "answer_3": "<video href=\"video.mp4\">",
+    "answer_4": "<video file=\"video.mp4\">",
+    "right_answer": "<video src=\"video.mp4\">"
+  },
+  {
+    "title": "What is the purpose of the \"controls\" attribute in the <video> element?",
+    "answer_1": "Show video playback controls to the user.",
+    "answer_2": "Specify the video's file format.",
+    "answer_3": "Enable autoplay of the video.",
+    "answer_4": "Set the video's aspect ratio.",
+    "right_answer": "Show video playback controls to the user."
+  },
+  {
+    "title": "How can you embed an external webpage within your HTML page?",
+    "answer_1": "<iframe source=\"external.html\">",
+    "answer_2": "<iframe src=\"external.html\">",
+    "answer_3": "<include src=\"external.html\">",
+    "answer_4": "<frame src=\"external.html\">",
+    "right_answer": "<iframe src=\"external.html\">"
+  },
+  {
+    "title": "How can you create a text input field that only allows numbers?",
+    "answer_1": "<input type=\"numbers\">",
+    "answer_2": "<input type=\"text\" pattern=\"[0-9]*\">",
+    "answer_3": "<input type=\"number\">",
+    "answer_4": "<input type=\"numeric\">",
+    "right_answer": "<input type=\"text\" pattern=\"[0-9]*\">"
+  },
+  {
+    "title": "What is the purpose of the \"autocomplete\" attribute in HTML form inputs?",
+    "answer_1": "Control the order of tab navigation.",
+    "answer_2": "Auto-fill the input with a default value.",
+    "answer_3": "Enable auto-suggestion for input values.",
+    "answer_4": "Disable the input field.",
+    "right_answer": "Enable auto-suggestion for input values."
+  },
+  {
+    "title": "How can you create a form that accepts multiple file uploads?",
+    "answer_1": "<input type=\"upload\" multiple>",
+    "answer_2": "<input type=\"file\" multiple>",
+    "answer_3": "<input type=\"multiupload\">",
+    "answer_4": "<input type=\"files\">",
+    "right_answer": "<input type=\"file\" multiple>"
+  },
+  {
+    "title": "What does the \"min\" attribute do in an input element of type \"number\"?",
+    "answer_1": "Specifies the maximum allowed value.",
+    "answer_2": "Specifies the minimum allowed value.",
+    "answer_3": "Sets the default value.",
+    "answer_4": "Defines the step size for increments.",
+    "right_answer": "Specifies the minimum allowed value."
+  },
+  {
+    "title": "How can you create a date picker input field in HTML?",
+    "answer_1": "<input type=\"date\">",
+    "answer_2": "<input type=\"calendar\">",
+    "answer_3": "<input type=\"datepicker\">",
+    "answer_4": "<input type=\"day\">",
+    "right_answer": "<input type=\"date\">"
+  },
+  {
+    "title": "How can you create a checkbox that is checked by default?",
+    "answer_1": "<input type=\"checkbox\" checked>",
+    "answer_2": "<input type=\"checkbox\" default=\"checked\">",
+    "answer_3": "<input type=\"checkbox\" value=\"checked\">",
+    "answer_4": "<input type=\"default\" checkbox=\"checked\">",
+    "right_answer": "<input type=\"checkbox\" checked>"
+  },
+  {
+    "title": "What is the purpose of the \"disabled\" attribute in HTML form inputs?",
+    "answer_1": "Indicate that the input is optional.",
+    "answer_2": "Highlight the input field.",
+    "answer_3": "Disable user interaction with the input.",
+    "answer_4": "Set the input value to its default.",
+    "right_answer": "Disable user interaction with the input."
+  },
+  {
+    "title": "How can you create a submit button with custom text in HTML?",
+    "answer_1": "<button type=\"submit\">Submit</button>",
+    "answer_2": "<input type=\"submit\" value=\"Submit\">",
+    "answer_3": "<input type=\"button\" text=\"Submit\">",
+    "answer_4": "<submit-button>Submit</submit-button>",
+    "right_answer": "<input type=\"submit\" value=\"Submit\">"
+  },
+  {
+    "title": "What is the purpose of the \"name\" attribute in HTML form inputs?",
+    "answer_1": "Provide a description of the input.",
+    "answer_2": "Identify the input element in CSS.",
+    "answer_3": "Associate a label with the input.",
+    "answer_4": "Send the input's value to the server.",
+    "right_answer": "Send the input's value to the server."
+  },
+  {
+    "title": "How can you create a radio button that is selected by default?",
+    "answer_1": "<input type=\"radio\" default=\"selected\">",
+    "answer_2": "<input type=\"radio\" value=\"selected\">",
+    "answer_3": "<input type=\"radio\" selected>",
+    "answer_4": "<input type=\"radio\" checked>",
+    "right_answer": "<input type=\"radio\" checked>"
+  },
+  {
+    "title": "What is the purpose of the \"alt\" attribute in the <img> element?",
+    "answer_1": "Define the alignment of the image.",
+    "answer_2": "Specify the image's file format.",
+    "answer_3": "Set the alternative text for the image.",
+    "answer_4": "Provide the image's URL.",
+    "right_answer": "Set the alternative text for the image."
+  },
+  {
+    "title": "How can you provide a text alternative for an image in HTML for accessibility?",
+    "answer_1": "<img alt=\"Alternative text\" src=\"image.jpg\">",
+    "answer_2": "<img text=\"Alternative text\" src=\"image.jpg\">",
+    "answer_3": "<img title=\"Alternative text\" src=\"image.jpg\">",
+    "answer_4": "<img alternative=\"Alternative text\" src=\"image.jpg\">",
+    "right_answer": "<img alt=\"Alternative text\" src=\"image.jpg\">"
+  },
+  {
+    "title": "Which HTML element is used to display a video with subtitles or captions?",
+    "answer_1": "<video>",
+    "answer_2": "<subtitles>",
+    "answer_3": "<caption>",
+    "answer_4": "<track>",
+    "right_answer": "<track>"
+  },
+  {
+    "title": "How can you make an HTML audio player accessible to screen readers?",
+    "answer_1": "<audio>",
+    "answer_2": "<sound>",
+    "answer_3": "<player>",
+    "answer_4": "<accessible-audio>",
+    "right_answer": "<audio>"
+  },
+  {
+    "title": "What does the \"aria-label\" attribute do in HTML?",
+    "answer_1": "Define the alignment of an element.",
+    "answer_2": "Set the role of an element for accessibility.",
+    "answer_3": "Provide alternative text for images.",
+    "answer_4": "Display a label for form inputs.",
+    "right_answer": "Set the role of an element for accessibility."
+  },
+  {
+    "title": "What is the purpose of the <nav> element in HTML5?",
+    "answer_1": "Create a new webpage section.",
+    "answer_2": "Display a navigation bar.",
+    "answer_3": "Define the main content of a page.",
+    "answer_4": "Embed videos.",
+    "right_answer": "Display a navigation bar."
+  },
+  {
+    "title": "How can you define the author of an HTML document?",
+    "answer_1": "<meta name=\"author\" content=\"Author Name\">",
+    "answer_2": "<author>Author Name</author>",
+    "answer_3": "<title>Author Name</title>",
+    "answer_4": "<head>Author Name</head>",
+    "right_answer": "<meta name=\"author\" content=\"Author Name\">"
+  },
+  {
+    "title": "Which HTML element is used to represent a thematic break or section change?",
+    "answer_1": "<divider>",
+    "answer_2": "<hr>",
+    "answer_3": "<section>",
+    "answer_4": "<break>",
+    "right_answer": "<hr>"
+  },
+  {
+    "title": "How can you define keywords for SEO in an HTML document?",
+    "answer_1": "<meta name=\"keywords\" content=\"keyword1, keyword2\">",
+    "answer_2": "<keywords>keyword1, keyword2</keywords>",
+    "answer_3": "<title>keyword1, keyword2</title>",
+    "answer_4": "<head>keyword1, keyword2</head>",
+    "right_answer": "<meta name=\"keywords\" content=\"keyword1, keyword2\">"
+  },
+  {
+    "title": "What does the <article> element represent in HTML5?",
+    "answer_1": "The main content of a webpage.",
+    "answer_2": "Additional content related to the main content.",
+    "answer_3": "A footer section.",
+    "answer_4": "A navigation bar.",
+    "right_answer": "The main content of a webpage."
+  }
+]

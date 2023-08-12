@@ -1,0 +1,802 @@
+[
+  {
+    "title": "What is JavaScript?",
+    "answer_1": "A markup language",
+    "answer_2": "A programming language",
+    "answer_3": "A database management system",
+    "answer_4": "A styling language",
+    "right_answer": "A programming language"
+  },
+  {
+    "title": "Which of the following is the correct way to declare a JavaScript variable?",
+    "answer_1": "var myVariable = 10;",
+    "answer_2": "variable myVariable = 10;",
+    "answer_3": "myVariable = 10;",
+    "answer_4": "let myVariable = 10;",
+    "right_answer": "var myVariable = 10;"
+  },
+  {
+    "title": "What will be the output of typeof null?",
+    "answer_1": "\"null\"",
+    "answer_2": "\"undefined\"",
+    "answer_3": "\"object\"",
+    "answer_4": "\"string\"",
+    "right_answer": "\"object\""
+  },
+  {
+    "title": "Which JavaScript operator is used to assign a value to a variable?",
+    "answer_1": "=",
+    "answer_2": "==",
+    "answer_3": "===",
+    "answer_4": "=>",
+    "right_answer": "="
+  },
+  {
+    "title": "What is the correct way to comment a single line in JavaScript?",
+    "answer_1": "<!-- This is a comment -->",
+    "answer_2": "/* This is a comment */",
+    "answer_3": "# This is a comment",
+    "answer_4": "// This is a comment",
+    "right_answer": "// This is a comment"
+  },
+  {
+    "title": "What is the purpose of the \"alert\" function in JavaScript?",
+    "answer_1": "It displays an image.",
+    "answer_2": "It displays a message box with text.",
+    "answer_3": "It adds a new element to the page.",
+    "answer_4": "It changes the background color of the page.",
+    "right_answer": "It displays a message box with text."
+  },
+  {
+    "title": "How can you concatenate two strings in JavaScript?",
+    "answer_1": "string1 + string2",
+    "answer_2": "string1 .concat(string2)",
+    "answer_3": "string1 : string2",
+    "answer_4": "string1 , string2",
+    "right_answer": "string1 + string2"
+  },
+  {
+    "title": "What will the following code output: console.log(10 + \"20\")?",
+    "answer_1": "30",
+    "answer_2": "\"1020\"",
+    "answer_3": "\"20\"",
+    "answer_4": "1020",
+    "right_answer": "\"1020\""
+  },
+  {
+    "title": "What is the purpose of the \"parseInt\" function in JavaScript?",
+    "answer_1": "It converts a string to an integer.",
+    "answer_2": "It converts an integer to a string.",
+    "answer_3": "It rounds a number to the nearest integer.",
+    "answer_4": "It calculates the square root of a number.",
+    "right_answer": "It converts a string to an integer."
+  },
+  {
+    "title": "What is the result of \"5\" + 2 in JavaScript?",
+    "answer_1": "7",
+    "answer_2": "\"52\"",
+    "answer_3": "\"7\"",
+    "answer_4": "52",
+    "right_answer": "\"52\""
+  },
+  {
+    "title": "What is the correct JavaScript syntax to create an array?",
+    "answer_1": "var colors = new Array[\"red\", \"green\", \"blue\"];",
+    "answer_2": "var colors = \"red\", \"green\", \"blue\";",
+    "answer_3": "var colors = [\"red\", \"green\", \"blue\"];",
+    "answer_4": "var colors = (\"red\", \"green\", \"blue\");",
+    "right_answer": "var colors = [\"red\", \"green\", \"blue\"];"
+  },
+  {
+    "title": "What is the data type of null in JavaScript?",
+    "answer_1": "Object",
+    "answer_2": "String",
+    "answer_3": "Null",
+    "answer_4": "Undefined",
+    "right_answer": "Object"
+  },
+  {
+    "title": "Which of the following is a valid JavaScript Boolean value?",
+    "answer_1": "trueish",
+    "answer_2": "false",
+    "answer_3": "0",
+    "answer_4": "\"yes\"",
+    "right_answer": "false"
+  },
+  {
+    "title": "What is the result of \"5\" - 2 in JavaScript?",
+    "answer_1": "3",
+    "answer_2": "\"3\"",
+    "answer_3": "2",
+    "answer_4": "\"52\"",
+    "right_answer": "3"
+  },
+  {
+    "title": "What is the data type of a function in JavaScript?",
+    "answer_1": "Function",
+    "answer_2": "Procedure",
+    "answer_3": "Method",
+    "answer_4": "Object",
+    "right_answer": "Function"
+  },
+  {
+    "title": "What will be the output of typeof undefined in JavaScript?",
+    "answer_1": "\"null\"",
+    "answer_2": "\"undefined\"",
+    "answer_3": "\"object\"",
+    "answer_4": "\"string\"",
+    "right_answer": "\"undefined\""
+  },
+  {
+    "title": "Which keyword is used to define a variable with a constant value?",
+    "answer_1": "const",
+    "answer_2": "var",
+    "answer_3": "let",
+    "answer_4": "final",
+    "right_answer": "const"
+  },
+  {
+    "title": "What is the data type of NaN in JavaScript?",
+    "answer_1": "Number",
+    "answer_2": "NaN",
+    "answer_3": "Not a valid data type",
+    "answer_4": "Special value",
+    "right_answer": "Number"
+  },
+  {
+    "title": "What is the value of 5 == \"5\" in JavaScript?",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "right_answer": "true"
+  },
+  {
+    "title": "What is the result of \"hello\" * 3 in JavaScript?",
+    "answer_1": "\"hellohellohello\"",
+    "answer_2": "\"3hello\"",
+    "answer_3": "\"hello3\"",
+    "answer_4": "NaN",
+    "right_answer": "NaN"
+  },
+  {
+    "title": "What is the remainder of the division 15 % 4 in JavaScript?",
+    "answer_1": "3",
+    "answer_2": "1",
+    "answer_3": "4",
+    "answer_4": "0",
+    "right_answer": "1"
+  },
+  {
+    "title": "What will be the output of typeof NaN in JavaScript?",
+    "answer_1": "\"number\"",
+    "answer_2": "\"NaN\"",
+    "answer_3": "\"undefined\"",
+    "answer_4": "\"string\"",
+    "right_answer": "\"number\""
+  },
+  {
+    "title": "What is the result of 10 == \"10\" in JavaScript?",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "right_answer": "true"
+  },
+  {
+    "title": "Which of the following is the correct way to declare a function in JavaScript?",
+    "answer_1": "function myFunction = () => { ... };",
+    "answer_2": "function myFunction() { ... }",
+    "answer_3": "myFunction = function() { ... };",
+    "answer_4": "myFunction => { ... }",
+    "right_answer": "function myFunction() { ... }"
+  },
+  {
+    "title": "What is the result of 1 + \"1\" in JavaScript?",
+    "answer_1": "2",
+    "answer_2": "\"11\"",
+    "answer_3": "\"2\"",
+    "answer_4": "11",
+    "right_answer": "\"11\""
+  },
+  {
+    "title": "What is the purpose of the \"++\" operator in JavaScript?",
+    "answer_1": "Increment a value by 1",
+    "answer_2": "Decrement a value by 1",
+    "answer_3": "Double a value",
+    "answer_4": "Divide a value by 2",
+    "right_answer": "Increment a value by 1"
+  },
+  {
+    "title": "What does the \"===\" operator do in JavaScript?",
+    "answer_1": "Assigns a value to a variable",
+    "answer_2": "Compares values and types",
+    "answer_3": "Converts a value to a string",
+    "answer_4": "Performs mathematical addition",
+    "right_answer": "Compares values and types"
+  },
+  {
+    "title": "What is the result of \"5\" + 5 in JavaScript?",
+    "answer_1": "10",
+    "answer_2": "\"10\"",
+    "answer_3": "\"55\"",
+    "answer_4": "55",
+    "right_answer": "\"55\""
+  },
+  {
+    "title": "Which operator is used to combine multiple conditions in JavaScript?",
+    "answer_1": "&& (and)",
+    "answer_2": "|| (or)",
+    "answer_3": "! (not)",
+    "answer_4": "= (equals)",
+    "right_answer": "&& (and)"
+  },
+  {
+    "title": "What will be the value of x after the following code: let x = 5; x += 3;?",
+    "answer_1": "8",
+    "answer_2": "3",
+    "answer_3": "15",
+    "answer_4": "2",
+    "right_answer": "8"
+  },
+  {
+    "title": "Which statement is used to execute a block of code repeatedly as long as a condition is true?",
+    "answer_1": "while loop",
+    "answer_2": "for loop",
+    "answer_3": "if statement",
+    "answer_4": "switch statement",
+    "right_answer": "while loop"
+  },
+  {
+    "title": "What is the purpose of the \"break\" statement in JavaScript?",
+    "answer_1": "It terminates a loop or switch statement.",
+    "answer_2": "It defines a new function.",
+    "answer_3": "It adds a new case to a switch statement.",
+    "answer_4": "It continues the loop to the next iteration.",
+    "right_answer": "It terminates a loop or switch statement."
+  },
+  {
+    "title": "What will the following code output: console.log(true && false)?",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "right_answer": "false"
+  },
+  {
+    "title": "Which statement is used to make a decision in JavaScript?",
+    "answer_1": "switch statement",
+    "answer_2": "if statement",
+    "answer_3": "for loop",
+    "answer_4": "while loop",
+    "right_answer": "if statement"
+  },
+  {
+    "title": "What is the result of true || false in JavaScript?",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "right_answer": "true"
+  },
+  {
+    "title": "What is the purpose of the \"continue\" statement in JavaScript?",
+    "answer_1": "It terminates the execution of a loop.",
+    "answer_2": "It defines a new loop.",
+    "answer_3": "It skips the rest of the current iteration and continues to the next.",
+    "answer_4": "It creates a function.",
+    "right_answer": "It skips the rest of the current iteration and continues to the next."
+  },
+  {
+    "title": "What does the \"else\" keyword do in an \"if...else\" statement?",
+    "answer_1": "It defines the condition to check.",
+    "answer_2": "It specifies the action to take when the condition is true.",
+    "answer_3": "It defines the action to take when the condition is false.",
+    "answer_4": "It terminates the statement.",
+    "right_answer": "It defines the action to take when the condition is false."
+  },
+  {
+    "title": "What will the following code output: console.log(1 == \"1\")?",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "right_answer": "true"
+  },
+  {
+    "title": "Which loop is used to execute a block of code a specific number of times?",
+    "answer_1": "for loop",
+    "answer_2": "while loop",
+    "answer_3": "do...while loop",
+    "answer_4": "switch statement",
+    "right_answer": "for loop"
+  },
+  {
+    "title": "What is the purpose of the \"do...while\" loop in JavaScript?",
+    "answer_1": "It executes the loop as long as a condition is true.",
+    "answer_2": "It executes the loop at least once, regardless of the condition.",
+    "answer_3": "It executes the loop for a specific number of times.",
+    "answer_4": "It executes the loop for a specific range of values.",
+    "right_answer": "It executes the loop at least once, regardless of the condition."
+  },
+  {
+    "title": "What is the term for a function defined inside another function in JavaScript?",
+    "answer_1": "Subfunction",
+    "answer_2": "Nested function",
+    "answer_3": "Inline function",
+    "answer_4": "Anonymous function",
+    "right_answer": "Nested function"
+  },
+  {
+    "title": "What is the purpose of the \"return\" statement in a function?",
+    "answer_1": "It defines the function's name.",
+    "answer_2": "It terminates the function's execution.",
+    "answer_3": "It specifies the input parameters.",
+    "answer_4": "It specifies the value to be returned from the function.",
+    "right_answer": "It specifies the value to be returned from the function."
+  },
+  {
+    "title": "What will the following code output: console.log(typeof function() {})?",
+    "answer_1": "\"object\"",
+    "answer_2": "\"function\"",
+    "answer_3": "\"undefined\"",
+    "answer_4": "\"string\"",
+    "right_answer": "\"function\""
+  },
+  {
+    "title": "Which function is used to convert a value to a floating-point number in JavaScript?",
+    "answer_1": "parseInt()",
+    "answer_2": "parseFloat()",
+    "answer_3": "toFloat()",
+    "answer_4": "toDecimal()",
+    "right_answer": "parseFloat()"
+  },
+  {
+    "title": "What is the purpose of the \"arguments\" object in a JavaScript function?",
+    "answer_1": "It holds the function's return value.",
+    "answer_2": "It defines the function's parameters.",
+    "answer_3": "It stores the values passed to the function.",
+    "answer_4": "It determines the function's execution order.",
+    "right_answer": "It stores the values passed to the function."
+  },
+  {
+    "title": "What is the difference between function declarations and function expressions in JavaScript?",
+    "answer_1": "There is no difference.",
+    "answer_2": "Function expressions can be named or anonymous, while declarations must have names.",
+    "answer_3": "Function declarations can be used as arguments, while expressions cannot.",
+    "answer_4": "Function expressions are defined using the \"function\" keyword, while declarations use the \"=>\" syntax.",
+    "right_answer": "Function expressions can be named or anonymous, while declarations must have names."
+  },
+  {
+    "title": "What does the \"call\" method do when applied to a function in JavaScript?",
+    "answer_1": "It invokes the function with a specified context and arguments.",
+    "answer_2": "It creates a new function object.",
+    "answer_3": "It checks if the function is callable.",
+    "answer_4": "It defines a new method for the function.",
+    "right_answer": "It invokes the function with a specified context and arguments."
+  },
+  {
+    "title": "What is the purpose of the \"apply\" method when used with a function in JavaScript?",
+    "answer_1": "It creates a new function object.",
+    "answer_2": "It invokes the function with arguments as an array.",
+    "answer_3": "It invokes the function with a specified context and arguments.",
+    "answer_4": "It defines a new method for the function.",
+    "right_answer": "It invokes the function with arguments as an array."
+  },
+  {
+    "title": "How can you pass a function as an argument to another function in JavaScript?",
+    "answer_1": "By using the function's name as the argument.",
+    "answer_2": "By using the \"this\" keyword as the argument.",
+    "answer_3": "By using the \"new\" keyword before the function's name.",
+    "answer_4": "By using the function's reference as the argument.",
+    "right_answer": "By using the function's reference as the argument."
+  },
+  {
+    "title": "What will the following code output: console.log(typeof (() => {}))?",
+    "answer_1": "\"object\"",
+    "answer_2": "\"function\"",
+    "answer_3": "\"undefined\"",
+    "answer_4": "\"string\"",
+    "right_answer": "\"function\""
+  },
+  {
+    "title": "How do you access a property of an object in JavaScript?",
+    "answer_1": "object.property",
+    "answer_2": "object[property]",
+    "answer_3": "object->property",
+    "answer_4": "object::property",
+    "right_answer": "object[property]"
+  },
+  {
+    "title": "What is the result of typeof [] in JavaScript?",
+    "answer_1": "\"array\"",
+    "answer_2": "\"object\"",
+    "answer_3": "\"undefined\"",
+    "answer_4": "\"string\"",
+    "right_answer": "\"object\""
+  },
+  {
+    "title": "How do you add a property to an existing object in JavaScript?",
+    "answer_1": "object.newProperty = value;",
+    "answer_2": "object.addProperty(value);",
+    "answer_3": "object.property = value;",
+    "answer_4": "object.add(property, value);",
+    "right_answer": "object.newProperty = value;"
+  },
+  {
+    "title": "What is the purpose of the \"length\" property of an array in JavaScript?",
+    "answer_1": "It holds the number of elements in the array.",
+    "answer_2": "It defines the maximum number of elements the array can hold.",
+    "answer_3": "It specifies the index of the last element in the array.",
+    "answer_4": "It holds the sum of all the elements in the array.",
+    "right_answer": "It holds the number of elements in the array."
+  },
+  {
+    "title": "What will the following code output: console.log(typeof {})?",
+    "answer_1": "\"array\"",
+    "answer_2": "\"object\"",
+    "answer_3": "\"undefined\"",
+    "answer_4": "\"string\"",
+    "right_answer": "\"object\""
+  },
+  {
+    "title": "How do you remove a property from an object in JavaScript?",
+    "answer_1": "delete object.property;",
+    "answer_2": "object.removeProperty(property);",
+    "answer_3": "object.property = null;",
+    "answer_4": "object.property = undefined;",
+    "right_answer": "delete object.property;"
+  },
+  {
+    "title": "What is the result of [] instanceof Array in JavaScript?",
+    "answer_1": "true",
+    "answer_2": "false",
+    "answer_3": "NaN",
+    "answer_4": "undefined",
+    "right_answer": "true"
+  },
+  {
+    "title": "How do you add an element to the end of an array in JavaScript?",
+    "answer_1": "array.insert(element);",
+    "answer_2": "array.append(element);",
+    "answer_3": "array.push(element);",
+    "answer_4": "array.add(element);",
+    "right_answer": "array.push(element);"
+  },
+  {
+    "title": "What is the purpose of the \"hasOwnProperty\" method in JavaScript?",
+    "answer_1": "It checks if an object has a specific property.",
+    "answer_2": "It adds a new property to an object.",
+    "answer_3": "It deletes a property from an object.",
+    "answer_4": "It retrieves the value of a property.",
+    "right_answer": "It checks if an object has a specific property."
+  },
+  {
+    "title": "What is the result of Object.keys([]) in JavaScript?",
+    "answer_1": "[]",
+    "answer_2": "[0]",
+    "answer_3": "[\"length\"]",
+    "answer_4": "[\"0\"]",
+    "right_answer": "[\"length\"]"
+  },
+  {
+    "title": "What is an event in JavaScript?",
+    "answer_1": "A function definition",
+    "answer_2": "A variable declaration",
+    "answer_3": "An action that occurs in the browser, like a button click",
+    "answer_4": "A loop construct",
+    "right_answer": "An action that occurs in the browser, like a button click"
+  },
+  {
+    "title": "How can you attach an event handler to an HTML element in JavaScript?",
+    "answer_1": "element.onEvent = function() { ... };",
+    "answer_2": "element.attachEvent(\"event\", function() { ... });",
+    "answer_3": "element.addEventHandler(\"event\", function() { ... });",
+    "answer_4": "element.addEventListener(\"event\", function() { ... });",
+    "right_answer": "element.addEventListener(\"event\", function() { ... });"
+  },
+  {
+    "title": "Which event is triggered when an HTML element loses focus?",
+    "answer_1": "onblur",
+    "answer_2": "onfocus",
+    "answer_3": "onlosefocus",
+    "answer_4": "onlostfocus",
+    "right_answer": "onblur"
+  },
+  {
+    "title": "What does the \"event.preventDefault()\" method do in JavaScript?",
+    "answer_1": "It stops the browser from executing the event handler.",
+    "answer_2": "It prevents the default behavior of an HTML element.",
+    "answer_3": "It cancels an ongoing event.",
+    "answer_4": "It delays the execution of the event handler.",
+    "right_answer": "It prevents the default behavior of an HTML element."
+  },
+  {
+    "title": "How can you pass additional data to an event handler in JavaScript?",
+    "answer_1": "By adding attributes to the event object",
+    "answer_2": "By using global variables",
+    "answer_3": "By directly modifying the DOM element",
+    "answer_4": "By embedding the data in the HTML element's text",
+    "right_answer": "By adding attributes to the event object"
+  },
+  {
+    "title": "Which event is triggered when the mouse pointer is moved out of an HTML element?",
+    "answer_1": "onleave",
+    "answer_2": "onmouseout",
+    "answer_3": "onmouseexit",
+    "answer_4": "onmouseleave",
+    "right_answer": "onmouseleave"
+  },
+  {
+    "title": "What is the result of event.stopPropagation() in JavaScript?",
+    "answer_1": "It prevents the event from propagating to other elements.",
+    "answer_2": "It cancels the event's default behavior.",
+    "answer_3": "It redirects the event to a different element.",
+    "answer_4": "It pauses the event execution.",
+    "right_answer": "It prevents the event from propagating to other elements."
+  },
+  {
+    "title": "How can you attach multiple event handlers to the same HTML element in JavaScript?",
+    "answer_1": "By using a single event listener",
+    "answer_2": "By using the \"onEvent\" property multiple times",
+    "answer_3": "By using the \"addEventListener\" method multiple times",
+    "answer_4": "By using the \"attachEvent\" method multiple times",
+    "right_answer": "By using the \"addEventListener\" method multiple times"
+  },
+  {
+    "title": "Which event is triggered when an HTML form element's value changes?",
+    "answer_1": "onchange",
+    "answer_2": "onvaluechange",
+    "answer_3": "oninput",
+    "answer_4": "ontextchange",
+    "right_answer": "onchange"
+  },
+  {
+    "title": "What is the purpose of the \"event.target\" property in JavaScript?",
+    "answer_1": "It refers to the parent element of the current element.",
+    "answer_2": "It refers to the current HTML element.",
+    "answer_3": "It refers to the previous HTML element.",
+    "answer_4": "It refers to the next HTML element.",
+    "right_answer": "It refers to the current HTML element."
+  },
+  {
+    "title": "What does the acronym \"DOM\" stand for in JavaScript?",
+    "answer_1": "Document Object Model",
+    "answer_2": "Display On Mobile",
+    "answer_3": "Display Only Mode",
+    "answer_4": "Data Object Management",
+    "right_answer": "Document Object Model"
+  },
+  {
+    "title": "How can you change the content of an HTML element using JavaScript?",
+    "answer_1": "element.textContent = \"new content\";",
+    "answer_2": "element.innerHTML = \"new content\";",
+    "answer_3": "element.innerText = \"new content\";",
+    "answer_4": "element.text = \"new content\";",
+    "right_answer": "element.innerHTML = \"new content\";"
+  },
+  {
+    "title": "What is the result of document.querySelector(\".classname\") in JavaScript?",
+    "answer_1": "The first element with the given class name",
+    "answer_2": "An array of elements with the given class name",
+    "answer_3": "The last element with the given class name",
+    "answer_4": "An object representing the given class name",
+    "right_answer": "The first element with the given class name"
+  },
+  {
+    "title": "How can you change the CSS class of an HTML element using JavaScript?",
+    "answer_1": "element.style.class = \"new-class\";",
+    "answer_2": "element.class = \"new-class\";",
+    "answer_3": "element.className = \"new-class\";",
+    "answer_4": "element.classname = \"new-class\";",
+    "right_answer": "element.className = \"new-class\";"
+  },
+  {
+    "title": "What is the result of document.getElementById(\"myElement\").textContent in JavaScript?",
+    "answer_1": "The HTML content of the element",
+    "answer_2": "The text content of the element",
+    "answer_3": "The ID of the element",
+    "answer_4": "The class name of the element",
+    "right_answer": "The text content of the element"
+  },
+  {
+    "title": "How can you create a new HTML element using JavaScript?",
+    "answer_1": "document.createElement(\"elementName\");",
+    "answer_2": "document.addElement(\"elementName\");",
+    "answer_3": "document.newElement(\"elementName\");",
+    "answer_4": "document.makeElement(\"elementName\");",
+    "right_answer": "document.createElement(\"elementName\");"
+  },
+  {
+    "title": "What is the purpose of the \"appendChild\" method in JavaScript?",
+    "answer_1": "It removes an element from the DOM.",
+    "answer_2": "It adds an element to the beginning of the DOM.",
+    "answer_3": "It appends an element as a child of another element.",
+    "answer_4": "It replaces one element with another.",
+    "right_answer": "It appends an element as a child of another element."
+  },
+  {
+    "title": "How can you remove an HTML element from the DOM using JavaScript?",
+    "answer_1": "element.remove();",
+    "answer_2": "document.removeElement(element);",
+    "answer_3": "element.parentNode.removeChild(element);",
+    "answer_4": "element.removeChild();",
+    "right_answer": "element.parentNode.removeChild(element);"
+  },
+  {
+    "title": "What is the result of document.querySelectorAll(\".classname\") in JavaScript?",
+    "answer_1": "An array of elements with the given class name",
+    "answer_2": "The first element with the given class name",
+    "answer_3": "The last element with the given class name",
+    "answer_4": "An object representing the given class name",
+    "right_answer": "An array of elements with the given class name"
+  },
+  {
+    "title": "What does the \"style\" property of an HTML element allow you to do in JavaScript?",
+    "answer_1": "Access or modify the element's CSS properties",
+    "answer_2": "Change the element's tag name",
+    "answer_3": "Add event listeners to the element",
+    "answer_4": "Change the element's text content",
+    "right_answer": "Access or modify the element's CSS properties"
+  },
+  {
+    "title": "What is asynchronous programming in JavaScript?",
+    "answer_1": "A programming technique that uses only synchronous functions",
+    "answer_2": "A way to pause the execution of a program",
+    "answer_3": "A programming approach that allows code to run concurrently",
+    "answer_4": "A way to prevent errors in a program",
+    "right_answer": "A programming approach that allows code to run concurrently"
+  },
+  {
+    "title": "Which keyword is used to declare a function as asynchronous in JavaScript?",
+    "answer_1": "async",
+    "answer_2": "await",
+    "answer_3": "promise",
+    "answer_4": "asynchronous",
+    "right_answer": "async"
+  },
+  {
+    "title": "What is the purpose of the \"setTimeout\" function in JavaScript?",
+    "answer_1": "It defines the time interval between AJAX requests.",
+    "answer_2": "It delays the execution of a function for a specified amount of time.",
+    "answer_3": "It creates a new thread for a function.",
+    "answer_4": "It synchronously executes a function.",
+    "right_answer": "It delays the execution of a function for a specified amount of time."
+  },
+  {
+    "title": "What does the \"callback\" function do in asynchronous programming?",
+    "answer_1": "It defines a set of instructions for the program to follow.",
+    "answer_2": "It handles errors that occur during asynchronous operations.",
+    "answer_3": "It is executed when an asynchronous operation is completed.",
+    "answer_4": "It cancels an ongoing asynchronous operation.",
+    "right_answer": "It is executed when an asynchronous operation is completed."
+  },
+  {
+    "title": "How can you handle errors in asynchronous programming in JavaScript?",
+    "answer_1": "By using try...catch statements",
+    "answer_2": "By using global error handlers",
+    "answer_3": "By ignoring errors",
+    "answer_4": "By using the \"callback\" function",
+    "right_answer": "By using try...catch statements"
+  },
+  {
+    "title": "What is the purpose of the \"Promise\" object in JavaScript?",
+    "answer_1": "To handle synchronous functions",
+    "answer_2": "To create multiple threads for better performance",
+    "answer_3": "To represent a value that might be available now, or in the future, or never",
+    "answer_4": "To define a new data type",
+    "right_answer": "To represent a value that might be available now, or in the future, or never"
+  },
+  {
+    "title": "What is the result of Promise.resolve(\"hello\").then(value => value.toUpperCase())?",
+    "answer_1": "\"hello\"",
+    "answer_2": "\"HELLO\"",
+    "answer_3": "A Promise object containing \"hello\"",
+    "answer_4": "A Promise object containing \"HELLO\"",
+    "right_answer": "\"HELLO\""
+  },
+  {
+    "title": "How can you create a new Promise object in JavaScript?",
+    "answer_1": "new Promise(\"resolve\", \"reject\");",
+    "answer_2": "Promise.create(\"resolve\", \"reject\");",
+    "answer_3": "new Promise((resolve, reject) => { ... });",
+    "answer_4": "Promise.new((resolve, reject) => { ... });",
+    "right_answer": "new Promise((resolve, reject) => { ... });"
+  },
+  {
+    "title": "What is the purpose of the \"await\" keyword in asynchronous programming?",
+    "answer_1": "It defines a new Promise object.",
+    "answer_2": "It delays the execution of a function.",
+    "answer_3": "It pauses the execution of a function until a Promise is resolved.",
+    "answer_4": "It cancels an ongoing asynchronous operation.",
+    "right_answer": "It pauses the execution of a function until a Promise is resolved."
+  },
+  {
+    "title": "What is the result of Promise.reject(\"error\").catch(error => error.toUpperCase())?",
+    "answer_1": "\"error\"",
+    "answer_2": "\"ERROR\"",
+    "answer_3": "A Promise object containing \"error\"",
+    "answer_4": "A Promise object containing \"ERROR\"",
+    "right_answer": "\"ERROR\""
+  },
+  {
+    "title": "What is an exception in JavaScript?",
+    "answer_1": "A type of variable",
+    "answer_2": "An unexpected event that disrupts the normal flow of code execution",
+    "answer_3": "A data type used to hold error messages",
+    "answer_4": "A type of function",
+    "right_answer": "An unexpected event that disrupts the normal flow of code execution"
+  },
+  {
+    "title": "Which keyword is used to throw an exception in JavaScript?",
+    "answer_1": "throw",
+    "answer_2": "exception",
+    "answer_3": "raise",
+    "answer_4": "error",
+    "right_answer": "throw"
+  },
+  {
+    "title": "What is the purpose of the \"try...catch\" statement in JavaScript?",
+    "answer_1": "It defines a new function.",
+    "answer_2": "It executes a block of code and handles any exceptions that occur.",
+    "answer_3": "It delays the execution of code.",
+    "answer_4": "It prevents errors from occurring.",
+    "right_answer": "It executes a block of code and handles any exceptions that occur."
+  },
+  {
+    "title": "What does the \"finally\" block do in a \"try...catch\" statement in JavaScript?",
+    "answer_1": "It defines a block of code to be executed when an exception occurs.",
+    "answer_2": "It defines a block of code to be executed after the \"try\" block.",
+    "answer_3": "It defines a block of code to be executed before the \"try\" block.",
+    "answer_4": "It prevents exceptions from occurring.",
+    "right_answer": "It defines a block of code to be executed after the \"try\" block."
+  },
+  {
+    "title": "How can you catch a specific type of exception in a \"try...catch\" statement?",
+    "answer_1": "By specifying the exception type in the \"catch\" block",
+    "answer_2": "By using the \"except\" keyword",
+    "answer_3": "By using a separate \"if\" statement after the \"catch\" block",
+    "answer_4": "By using the \"catch\" block without specifying a type",
+    "right_answer": "By specifying the exception type in the \"catch\" block"
+  },
+  {
+    "title": "What is the result of dividing by zero in JavaScript?",
+    "answer_1": "An error is thrown.",
+    "answer_2": "The result is NaN.",
+    "answer_3": "The result is 0.",
+    "answer_4": "The result is Infinity.",
+    "right_answer": "The result is Infinity."
+  },
+  {
+    "title": "What is the purpose of the \"Error\" object in JavaScript?",
+    "answer_1": "It defines a new exception type.",
+    "answer_2": "It creates a new thread for error handling.",
+    "answer_3": "It represents an error object with a message and stack trace.",
+    "answer_4": "It cancels an ongoing operation.",
+    "right_answer": "It represents an error object with a message and stack trace."
+  },
+  {
+    "title": "What is the result of parseInt(\"abc\") in JavaScript?",
+    "answer_1": "An error is thrown.",
+    "answer_2": "The result is NaN.",
+    "answer_3": "The result is 0.",
+    "answer_4": "The result is \"abc\".",
+    "right_answer": "The result is NaN."
+  },
+  {
+    "title": "How can you access the error message in a caught exception in JavaScript?",
+    "answer_1": "error.errorMessage",
+    "answer_2": "error.msg",
+    "answer_3": "error.message",
+    "answer_4": "error.text",
+    "right_answer": "error.message"
+  },
+  {
+    "title": "What is the purpose of the \"stack trace\" in a JavaScript error object?",
+    "answer_1": "It defines a new function.",
+    "answer_2": "It indicates the line number where the error occurred.",
+    "answer_3": "It holds the error message.",
+    "answer_4": "It defines the type of the error.",
+    "right_answer": "It indicates the line number where the error occurred."
+  }
+]

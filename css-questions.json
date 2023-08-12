@@ -1,0 +1,802 @@
+[
+  {
+    "title": "What does CSS stand for?",
+    "answer_1": "Computer Style Sheets",
+    "answer_2": "Creative Style Sheets",
+    "answer_3": "Cascading Style Sheets",
+    "answer_4": "Colorful Style Sheets",
+    "right_answer": "Cascading Style Sheets"
+  },
+  {
+    "title": "Which HTML tag is used to link an external CSS file?",
+    "answer_1": "<css>",
+    "answer_2": "<style>",
+    "answer_3": "<link>",
+    "answer_4": "<stylesheet>",
+    "right_answer": "<link>"
+  },
+  {
+    "title": "What is the correct way to apply inline CSS to an HTML element?",
+    "answer_1": "<style>",
+    "answer_2": "<css>",
+    "answer_3": "<inline>",
+    "answer_4": "style attribute",
+    "right_answer": "style attribute"
+  },
+  {
+    "title": "Which CSS property is used to change the text color?",
+    "answer_1": "font-color",
+    "answer_2": "text-color",
+    "answer_3": "color",
+    "answer_4": "txt-color",
+    "right_answer": "color"
+  },
+  {
+    "title": "How can you select an element with the class \"header\" in CSS?",
+    "answer_1": ".header",
+    "answer_2": "#header",
+    "answer_3": "header",
+    "answer_4": "<header>",
+    "right_answer": ".header"
+  },
+  {
+    "title": "What is the purpose of the \"background-color\" property in CSS?",
+    "answer_1": "Set the text color of an element.",
+    "answer_2": "Control the element's padding.",
+    "answer_3": "Define the border color of an element.",
+    "answer_4": "Change the background color of an element.",
+    "right_answer": "Change the background color of an element."
+  },
+  {
+    "title": "Which CSS selector is used to select an element by its id?",
+    "answer_1": ".id",
+    "answer_2": "#id",
+    "answer_3": "id",
+    "answer_4": "<id>",
+    "right_answer": "#id"
+  },
+  {
+    "title": "How can you set the font size in CSS?",
+    "answer_1": "font-size",
+    "answer_2": "size",
+    "answer_3": "text-size",
+    "answer_4": "font-size",
+    "right_answer": "font-size"
+  },
+  {
+    "title": "Which CSS property is used to control the spacing between lines of text?",
+    "answer_1": "line-height",
+    "answer_2": "text-spacing",
+    "answer_3": "line-spacing",
+    "answer_4": "spacing",
+    "right_answer": "line-height"
+  },
+  {
+    "title": "What does the \"margin\" property in CSS control?",
+    "answer_1": "Border size",
+    "answer_2": "Element width",
+    "answer_3": "Element padding",
+    "answer_4": "Space outside an element",
+    "right_answer": "Space outside an element"
+  },
+  {
+    "title": "What is the default value of the \"display\" property in CSS?",
+    "answer_1": "block",
+    "answer_2": "inline",
+    "answer_3": "inline-block",
+    "answer_4": "flex",
+    "right_answer": "inline"
+  },
+  {
+    "title": "Which CSS property is used to set the width of an element's border?",
+    "answer_1": "border-size",
+    "answer_2": "border-width",
+    "answer_3": "border-style",
+    "answer_4": "border",
+    "right_answer": "border-width"
+  },
+  {
+    "title": "How can you set the padding of an element in CSS?",
+    "answer_1": "padding",
+    "answer_2": "padding-size",
+    "answer_3": "element-padding",
+    "answer_4": "padding-width",
+    "right_answer": "padding"
+  },
+  {
+    "title": "What does the \"box-sizing\" property control in CSS?",
+    "answer_1": "Border style",
+    "answer_2": "Element dimensions",
+    "answer_3": "Background color",
+    "answer_4": "Text alignment",
+    "right_answer": "Element dimensions"
+  },
+  {
+    "title": "Which CSS property is used to control the space between cells in a table?",
+    "answer_1": "spacing",
+    "answer_2": "border-spacing",
+    "answer_3": "table-spacing",
+    "answer_4": "cell-spacing",
+    "right_answer": "border-spacing"
+  },
+  {
+    "title": "What is the default positioning of an HTML element?",
+    "answer_1": "static",
+    "answer_2": "relative",
+    "answer_3": "absolute",
+    "answer_4": "fixed",
+    "right_answer": "static"
+  },
+  {
+    "title": "How can you center an element horizontally in CSS?",
+    "answer_1": "text-align: center;",
+    "answer_2": "align: center;",
+    "answer_3": "horizontal-align: center;",
+    "answer_4": "margin: auto;",
+    "right_answer": "margin: auto;"
+  },
+  {
+    "title": "What does the \"position\" property value \"absolute\" do in CSS?",
+    "answer_1": "Positions the element relatively to its parent",
+    "answer_2": "Positions the element relative to the viewport",
+    "answer_3": "Positions the element absolutely in the center",
+    "answer_4": "Positions the element relatively to the baseline",
+    "right_answer": "Positions the element relative to the viewport"
+  },
+  {
+    "title": "How can you create a sticky navigation bar in CSS?",
+    "answer_1": "position: sticky;",
+    "answer_2": "position: fixed;",
+    "answer_3": "position: absolute;",
+    "answer_4": "position: relative;",
+    "right_answer": "position: sticky;"
+  },
+  {
+    "title": "Which CSS property is used to adjust the stacking order of elements?",
+    "answer_1": "z-index",
+    "answer_2": "stack-order",
+    "answer_3": "order",
+    "answer_4": "layer-order",
+    "right_answer": "z-index"
+  },
+  {
+    "title": "What does the \"float\" property in CSS control?",
+    "answer_1": "Element visibility",
+    "answer_2": "Element rotation",
+    "answer_3": "Element alignment",
+    "answer_4": "Element positioning",
+    "right_answer": "Element positioning"
+  },
+  {
+    "title": "Which CSS property is used to create flexible and responsive layouts?",
+    "answer_1": "display: inline-block;",
+    "answer_2": "display: block;",
+    "answer_3": "display: flex;",
+    "answer_4": "display: inline;",
+    "right_answer": "display: flex;"
+  },
+  {
+    "title": "What is the purpose of the \"flex-direction\" property in flexbox?",
+    "answer_1": "Control element order",
+    "answer_2": "Control element alignment",
+    "answer_3": "Control element spacing",
+    "answer_4": "Control element stacking",
+    "right_answer": "Control element order"
+  },
+  {
+    "title": "How can you align flex items horizontally in flexbox?",
+    "answer_1": "align-items: center;",
+    "answer_2": "justify-content: center;",
+    "answer_3": "align-content: center;",
+    "answer_4": "align-self: center;",
+    "right_answer": "justify-content: center;"
+  },
+  {
+    "title": "What does the \"flex-grow\" property do in flexbox?",
+    "answer_1": "Adjusts item width",
+    "answer_2": "Adjusts item height",
+    "answer_3": "Defines item order",
+    "answer_4": "Controls item growth",
+    "right_answer": "Controls item growth"
+  },
+  {
+    "title": "What is the purpose of the \"media queries\" in CSS?",
+    "answer_1": "Apply different styles based on user interactions",
+    "answer_2": "Create animations and transitions",
+    "answer_3": "Apply styles based on device characteristics",
+    "answer_4": "Implement JavaScript functionality",
+    "right_answer": "Apply styles based on device characteristics"
+  },
+  {
+    "title": "Which CSS unit is relative to the font size of the element?",
+    "answer_1": "px",
+    "answer_2": "em",
+    "answer_3": "rem",
+    "answer_4": "% (percentage)",
+    "right_answer": "em"
+  },
+  {
+    "title": "How can you hide an element on smaller screens using CSS?",
+    "answer_1": "display: none;",
+    "answer_2": "visibility: hidden;",
+    "answer_3": "hide: true;",
+    "answer_4": "opacity: 0;",
+    "right_answer": "display: none;"
+  },
+  {
+    "title": "What is the purpose of the \"max-width\" property in responsive design?",
+    "answer_1": "Restrict the element's minimum width",
+    "answer_2": "Control the element's maximum height",
+    "answer_3": "Control the element's maximum width",
+    "answer_4": "Set the element's absolute width",
+    "right_answer": "Control the element's maximum width"
+  },
+  {
+    "title": "Which CSS property is used to control the order of columns in a grid layout?",
+    "answer_1": "column-order",
+    "answer_2": "order",
+    "answer_3": "grid-column",
+    "answer_4": "column-position",
+    "right_answer": "order"
+  },
+  {
+    "title": "How can you define a background color in CSS?",
+    "answer_1": "background-color",
+    "answer_2": "bg-color",
+    "answer_3": "color",
+    "answer_4": "background",
+    "right_answer": "background-color"
+  },
+  {
+    "title": "Which CSS property is used to add a background image?",
+    "answer_1": "background-image",
+    "answer_2": "bg-img",
+    "answer_3": "image-source",
+    "answer_4": "img-background",
+    "right_answer": "background-image"
+  },
+  {
+    "title": "How can you set a transparent background color in CSS?",
+    "answer_1": "background-color: transparent;",
+    "answer_2": "background: none;",
+    "answer_3": "background-color: rgba(0, 0, 0, 0);",
+    "answer_4": "background-color: clear;",
+    "right_answer": "background-color: transparent;"
+  },
+  {
+    "title": "What is the purpose of the \"linear-gradient\" function in CSS?",
+    "answer_1": "Create a pattern background",
+    "answer_2": "Apply a gradient color to text",
+    "answer_3": "Add rounded corners to an element",
+    "answer_4": "Create a linear gradient background",
+    "right_answer": "Create a linear gradient background"
+  },
+  {
+    "title": "How can you add a border with a specific color to an element in CSS?",
+    "answer_1": "border-color",
+    "answer_2": "border",
+    "answer_3": "color",
+    "answer_4": "border-style",
+    "right_answer": "border-color"
+  },
+  {
+    "title": "Which CSS property is used to control the font family of text?",
+    "answer_1": "font",
+    "answer_2": "font-family",
+    "answer_3": "text-family",
+    "answer_4": "family-font",
+    "right_answer": "font-family"
+  },
+  {
+    "title": "How can you make text bold in CSS?",
+    "answer_1": "text-style: bold;",
+    "answer_2": "font-style: bold;",
+    "answer_3": "font-weight: bold;",
+    "answer_4": "bold: true;",
+    "right_answer": "font-weight: bold;"
+  },
+  {
+    "title": "What is the purpose of the \"text-decoration\" property in CSS?",
+    "answer_1": "Set the font style of text",
+    "answer_2": "Control text alignment",
+    "answer_3": "Apply an underline or strikethrough to text",
+    "answer_4": "Adjust text spacing",
+    "right_answer": "Apply an underline or strikethrough to text"
+  },
+  {
+    "title": "How can you control the spacing between letters in text using CSS?",
+    "answer_1": "letter-spacing",
+    "answer_2": "word-spacing",
+    "answer_3": "text-spacing",
+    "answer_4": "space-between-letters",
+    "right_answer": "letter-spacing"
+  },
+  {
+    "title": "Which CSS property is used to control the text alignment in an element?",
+    "answer_1": "text-align",
+    "answer_2": "align-text",
+    "answer_3": "align-content",
+    "answer_4": "align-text",
+    "right_answer": "text-align"
+  },
+  {
+    "title": "What does the \"transition\" property in CSS control?",
+    "answer_1": "Element rotation",
+    "answer_2": "Element visibility",
+    "answer_3": "Element animation",
+    "answer_4": "Element alignment",
+    "right_answer": "Element animation"
+  },
+  {
+    "title": "How can you create a smooth transition effect for an element in CSS?",
+    "answer_1": "transition: effect;",
+    "answer_2": "transition-effect: smooth;",
+    "answer_3": "transition: smooth;",
+    "answer_4": "transition-duration: smooth;",
+    "right_answer": "transition: smooth;"
+  },
+  {
+    "title": "Which CSS property is used to set the duration of a transition?",
+    "answer_1": "duration",
+    "answer_2": "transition-duration",
+    "answer_3": "animation-duration",
+    "answer_4": "transition-time",
+    "right_answer": "transition-duration"
+  },
+  {
+    "title": "How can you apply an animation to an element in CSS?",
+    "answer_1": "animation: name duration;",
+    "answer_2": "animate: name duration;",
+    "answer_3": "transition: name duration;",
+    "answer_4": "keyframes: name duration;",
+    "right_answer": "animation: name duration;"
+  },
+  {
+    "title": "What is the purpose of the \"animation-timing-function\" property in CSS animations?",
+    "answer_1": "Control animation delay",
+    "answer_2": "Define the animation's duration",
+    "answer_3": "Control the speed and pace of the animation",
+    "answer_4": "Set the animation's starting position",
+    "right_answer": "Control the speed and pace of the animation"
+  },
+  {
+    "title": "How can you align flex items vertically in flexbox?",
+    "answer_1": "justify-content: center;",
+    "answer_2": "align-items: center;",
+    "answer_3": "align-content: center;",
+    "answer_4": "align-self: center;",
+    "right_answer": "align-items: center;"
+  },
+  {
+    "title": "What does the \"grid-template-columns\" property in CSS grid do?",
+    "answer_1": "Define the column width",
+    "answer_2": "Control the column order",
+    "answer_3": "Set the number of columns",
+    "answer_4": "Create a template for column layout",
+    "right_answer": "Define the column width"
+  },
+  {
+    "title": "How can you make a flex item occupy all available space in flexbox?",
+    "answer_1": "flex: 1;",
+    "answer_2": "flex: all;",
+    "answer_3": "flex: fill;",
+    "answer_4": "flex-grow: 1;",
+    "right_answer": "flex: 1;"
+  },
+  {
+    "title": "What is the purpose of the \"grid-gap\" property in CSS grid?",
+    "answer_1": "Control the gap between flex items",
+    "answer_2": "Control the gap between grid items",
+    "answer_3": "Set the space between columns and rows",
+    "answer_4": "Set the space between grid lines",
+    "right_answer": "Control the gap between grid items"
+  },
+  {
+    "title": "How can you create a flexible grid layout in CSS?",
+    "answer_1": "display: flex;",
+    "answer_2": "display: grid;",
+    "answer_3": "display: layout;",
+    "answer_4": "display: flexible;",
+    "right_answer": "display: grid;"
+  },
+  {
+    "title": "What is a pseudo-class in CSS?",
+    "answer_1": "A class that's used for pseudo-elements",
+    "answer_2": "A class that's not defined in the stylesheet",
+    "answer_3": "A class that applies to an element in a specific state",
+    "answer_4": "A class that's hidden from the browser",
+    "right_answer": "A class that applies to an element in a specific state"
+  },
+  {
+    "title": "How can you select the first child element of a parent element in CSS?",
+    "answer_1": ":first",
+    "answer_2": ":first-child",
+    "answer_3": "first-child",
+    "answer_4": "first",
+    "right_answer": ":first-child"
+  },
+  {
+    "title": "What is the purpose of the ::before pseudo-element in CSS?",
+    "answer_1": "Add styles to the element after the content",
+    "answer_2": "Add content before the element's content",
+    "answer_3": "Create an alternate version of the element",
+    "answer_4": "Apply styles to the element before hovering",
+    "right_answer": "Add content before the element's content"
+  },
+  {
+    "title": "How can you select an element when a user hovers over it with the mouse?",
+    "answer_1": ":hover",
+    "answer_2": ":onhover",
+    "answer_3": "hover",
+    "answer_4": ":mouse-over",
+    "right_answer": ":hover"
+  },
+  {
+    "title": "What does the :nth-child() pseudo-class allow you to do in CSS?",
+    "answer_1": "Select every element except the nth child",
+    "answer_2": "Apply styles to the nth child element",
+    "answer_3": "Select only odd-numbered child elements",
+    "answer_4": "Select the parent element of the nth child",
+    "right_answer": "Apply styles to the nth child element"
+  },
+  {
+    "title": "How is specificity calculated in CSS?",
+    "answer_1": "By counting the number of characters in the selector",
+    "answer_2": "By counting the number of IDs and classes in the selector",
+    "answer_3": "By the order of selectors in the stylesheet",
+    "answer_4": "By calculating the weight of different selectors",
+    "right_answer": "By counting the number of IDs and classes in the selector"
+  },
+  {
+    "title": "Which CSS selector has the highest specificity?",
+    "answer_1": "Element selector",
+    "answer_2": "Class selector",
+    "answer_3": "ID selector",
+    "answer_4": "Pseudo-class selector",
+    "right_answer": "ID selector"
+  },
+  {
+    "title": "How can you apply a CSS style to an element and all its descendants?",
+    "answer_1": "Use a descendant selector (e.g., div p)",
+    "answer_2": "Use a child selector (e.g., div > p)",
+    "answer_3": "Use a universal selector (*)",
+    "answer_4": "Use an adjacent sibling selector (e.g., div + p)",
+    "right_answer": "Use a universal selector (*)"
+  },
+  {
+    "title": "What is inheritance in CSS?",
+    "answer_1": "The process of applying styles to child elements based on parent styles",
+    "answer_2": "The process of sharing styles between different classes",
+    "answer_3": "The process of creating new styles from existing ones",
+    "answer_4": "The process of applying styles to elements with the same tag",
+    "right_answer": "The process of applying styles to child elements based on parent styles"
+  },
+  {
+    "title": "How can you override inherited styles in CSS?",
+    "answer_1": "Use a higher specificity selector",
+    "answer_2": "Use the !important declaration",
+    "answer_3": "Use inline styles",
+    "answer_4": "Use a different property name",
+    "right_answer": "Use a higher specificity selector"
+  },
+  {
+    "title": "What is the purpose of the \"transform\" property in CSS?",
+    "answer_1": "Adjust the element's visibility",
+    "answer_2": "Control the element's position",
+    "answer_3": "Apply a 3D transformation to the element",
+    "answer_4": "Change the element's dimensions",
+    "right_answer": "Apply a 3D transformation to the element"
+  },
+  {
+    "title": "How can you create a shadow effect for an element using CSS?",
+    "answer_1": "shadow: 2px 2px 2px #000;",
+    "answer_2": "text-shadow: 2px 2px 2px #000;",
+    "answer_3": "box-shadow: 2px 2px 2px #000;",
+    "answer_4": "element-shadow: 2px 2px 2px #000;",
+    "right_answer": "box-shadow: 2px 2px 2px #000;"
+  },
+  {
+    "title": "What does the \"opacity\" property in CSS control?",
+    "answer_1": "Element's text color",
+    "answer_2": "Element's rotation",
+    "answer_3": "Element's transparency",
+    "answer_4": "Element's border width",
+    "right_answer": "Element's transparency"
+  },
+  {
+    "title": "How can you apply a gradient color to text in CSS?",
+    "answer_1": "text-color: gradient(#000, #fff);",
+    "answer_2": "color: gradient(#000, #fff);",
+    "answer_3": "text-gradient: linear(#000, #fff);",
+    "answer_4": "background: linear-gradient(#000, #fff);",
+    "right_answer": "background: linear-gradient(#000, #fff);"
+  },
+  {
+    "title": "What is the purpose of the \"backface-visibility\" property in CSS?",
+    "answer_1": "Control the visibility of an element's back face in 3D space",
+    "answer_2": "Determine if an element is displayed in reverse order",
+    "answer_3": "Change the visibility of the element's background",
+    "answer_4": "Define if the element is shown on hover",
+    "right_answer": "Control the visibility of an element's back face in 3D space"
+  },
+  {
+    "title": "What is the purpose of the \"grid-template-areas\" property in CSS grid?",
+    "answer_1": "Define the number of columns and rows",
+    "answer_2": "Set the size of grid cells",
+    "answer_3": "Assign a name to each grid cell",
+    "answer_4": "Create a layout template using cell names",
+    "right_answer": "Create a layout template using cell names"
+  },
+  {
+    "title": "How can you span grid items across multiple columns or rows in CSS grid?",
+    "answer_1": "grid-column-span",
+    "answer_2": "grid-span",
+    "answer_3": "span",
+    "answer_4": "grid-column / grid-row",
+    "right_answer": "grid-column / grid-row"
+  },
+  {
+    "title": "What does the \"grid-auto-flow\" property control in CSS grid?",
+    "answer_1": "The order of grid items",
+    "answer_2": "The size of grid cells",
+    "answer_3": "The placement of new grid items",
+    "answer_4": "The alignment of grid items",
+    "right_answer": "The placement of new grid items"
+  },
+  {
+    "title": "How can you set the space between grid rows or columns in CSS grid?",
+    "answer_1": "grid-gap",
+    "answer_2": "grid-spacing",
+    "answer_3": "gap",
+    "answer_4": "row-gap / column-gap",
+    "right_answer": "row-gap / column-gap"
+  },
+  {
+    "title": "What is the purpose of the \"justify-items\" property in CSS grid?",
+    "answer_1": "Align grid items horizontally",
+    "answer_2": "Align grid items vertically",
+    "answer_3": "Justify the content of grid cells",
+    "answer_4": "Justify the placement of new grid items",
+    "right_answer": "Align grid items horizontally"
+  },
+  {
+    "title": "What is the purpose of the \"flex-wrap\" property in flexbox?",
+    "answer_1": "Control the order of flex items",
+    "answer_2": "Control how flex items are distributed along the main axis",
+    "answer_3": "Allow flex items to wrap onto multiple lines",
+    "answer_4": "Determine the spacing between flex items",
+    "right_answer": "Allow flex items to wrap onto multiple lines"
+  },
+  {
+    "title": "How can you create equal-width columns using flexbox?",
+    "answer_1": "flex: 1;",
+    "answer_2": "flex-basis: 100%;",
+    "answer_3": "flex-grow: 1;",
+    "answer_4": "flex-wrap: wrap;",
+    "right_answer": "flex-grow: 1;"
+  },
+  {
+    "title": "What does the \"align-content\" property control in flexbox?",
+    "answer_1": "The alignment of flex items along the main axis",
+    "answer_2": "The alignment of flex items along the cross axis",
+    "answer_3": "The alignment of multiple lines of flex items",
+    "answer_4": "The distribution of extra space along the cross axis",
+    "right_answer": "The alignment of multiple lines of flex items"
+  },
+  {
+    "title": "How can you center flex items both horizontally and vertically?",
+    "answer_1": "align-items: center;",
+    "answer_2": "justify-content: center;",
+    "answer_3": "align-content: center;",
+    "answer_4": "align-self: center;",
+    "right_answer": "align-items: center;"
+  },
+  {
+    "title": "What is the purpose of the \"flex-shrink\" property in flexbox?",
+    "answer_1": "Control the order of flex items",
+    "answer_2": "Define the initial size of flex items",
+    "answer_3": "Determine if flex items can shrink",
+    "answer_4": "Determine if flex items can grow",
+    "right_answer": "Determine if flex items can shrink"
+  },
+  {
+    "title": "How can you select the last child element of a parent element in CSS?",
+    "answer_1": ":last-child",
+    "answer_2": "last",
+    "answer_3": ":last",
+    "answer_4": "last-child",
+    "right_answer": ":last-child"
+  },
+  {
+    "title": "What does the \"nth-of-type()\" pseudo-class allow you to do in CSS?",
+    "answer_1": "Select only the first element of a specific type",
+    "answer_2": "Select the nth element of a specific type",
+    "answer_3": "Select all elements except the nth of a type",
+    "answer_4": "Select the parent element of a specific type",
+    "right_answer": "Select the nth element of a specific type"
+  },
+  {
+    "title": "How can you select all elements with a specific class using CSS?",
+    "answer_1": ".classname",
+    "answer_2": "#classname",
+    "answer_3": ".classname*",
+    "answer_4": ".classname:all",
+    "right_answer": ".classname"
+  },
+  {
+    "title": "What is the purpose of the \"not()\" pseudo-class in CSS?",
+    "answer_1": "Select all elements except the specified one",
+    "answer_2": "Select the first element of a specific type",
+    "answer_3": "Select all elements of a specific class",
+    "answer_4": "Select all elements with a specific attribute",
+    "right_answer": "Select all elements except the specified one"
+  },
+  {
+    "title": "How can you select an element based on its attribute value in CSS?",
+    "answer_1": "[attribute]",
+    "answer_2": "attr(attribute)",
+    "answer_3": "attribute()",
+    "answer_4": "[attribute=value]",
+    "right_answer": "[attribute=value]"
+  },
+  {
+    "title": "In CSS layout, when would you choose to use Flexbox over Grid?",
+    "answer_1": "When you need to create a complex grid structure",
+    "answer_2": "When you need to align elements both horizontally and vertically",
+    "answer_3": "When you need to distribute space along the main axis",
+    "answer_4": "When you need to control the order of elements",
+    "right_answer": "When you need to align elements both horizontally and vertically"
+  },
+  {
+    "title": "In CSS layout, when would you choose to use Grid over Flexbox?",
+    "answer_1": "When you need to create a one-dimensional layout",
+    "answer_2": "When you need to reorder elements",
+    "answer_3": "When you need to align elements along the main axis",
+    "answer_4": "When you need to create a complex two-dimensional layout",
+    "right_answer": "When you need to create a complex two-dimensional layout"
+  },
+  {
+    "title": "Which layout method is best suited for creating navigation menus?",
+    "answer_1": "Grid",
+    "answer_2": "Flexbox",
+    "answer_3": "Both Grid and Flexbox",
+    "answer_4": "Neither Grid nor Flexbox",
+    "right_answer": "Flexbox"
+  },
+  {
+    "title": "Which layout method is better for creating a gallery of images with varying heights and widths?",
+    "answer_1": "Grid",
+    "answer_2": "Flexbox",
+    "answer_3": "Both Grid and Flexbox",
+    "answer_4": "Neither Grid nor Flexbox",
+    "right_answer": "Grid"
+  },
+  {
+    "title": "Which layout method is better for aligning elements in a single row or column?",
+    "answer_1": "Grid",
+    "answer_2": "Flexbox",
+    "answer_3": "Both Grid and Flexbox",
+    "answer_4": "Neither Grid nor Flexbox",
+    "right_answer": "Flexbox"
+  },
+  {
+    "title": "What is the purpose of CSS preprocessors like Sass or Less?",
+    "answer_1": "To convert CSS to HTML",
+    "answer_2": "To improve browser rendering performance",
+    "answer_3": "To write CSS in a more efficient and organized way",
+    "answer_4": "To generate JavaScript code",
+    "right_answer": "To write CSS in a more efficient and organized way"
+  },
+  {
+    "title": "How can you define a variable in Sass?",
+    "answer_1": "@variable name;",
+    "answer_2": "$variable: value;",
+    "answer_3": "variable: value;",
+    "answer_4": "var variable = value;",
+    "right_answer": "$variable: value;"
+  },
+  {
+    "title": "What does nesting mean in CSS preprocessors like Sass?",
+    "answer_1": "Placing one element inside another element",
+    "answer_2": "Writing selectors inside each other to apply styles",
+    "answer_3": "Applying styles without using selectors",
+    "answer_4": "Creating a hierarchy of elements",
+    "right_answer": "Writing selectors inside each other to apply styles"
+  },
+  {
+    "title": "How can you import an external Sass file into another Sass file?",
+    "answer_1": "import \"file.sass\";",
+    "answer_2": "link \"file.sass\";",
+    "answer_3": "@import \"file.sass\";",
+    "answer_4": "include \"file.sass\";",
+    "right_answer": "@import \"file.sass\";"
+  },
+  {
+    "title": "What is the purpose of mixins in Sass?",
+    "answer_1": "To add HTML elements to the page",
+    "answer_2": "To group a set of styles that can be reused",
+    "answer_3": "To define the layout of a webpage",
+    "answer_4": "To apply animations to elements",
+    "right_answer": "To group a set of styles that can be reused"
+  },
+  {
+    "title": "Which CSS unit represents a relative length based on the font size of an element?",
+    "answer_1": "px",
+    "answer_2": "em",
+    "answer_3": "rem",
+    "answer_4": "%",
+    "right_answer": "em"
+  },
+  {
+    "title": "What does the \"vh\" unit represent in CSS?",
+    "answer_1": "Vertical height of the viewport",
+    "answer_2": "Viewport height of the element",
+    "answer_3": "Vertical height of the element",
+    "answer_4": "Viewport height of the page",
+    "right_answer": "Vertical height of the viewport"
+  },
+  {
+    "title": "How can you set a fixed size that won't change with viewport resizing using CSS?",
+    "answer_1": "Use the % unit",
+    "answer_2": "Use the em unit",
+    "answer_3": "Use the rem unit",
+    "answer_4": "Use the px unit",
+    "right_answer": "Use the px unit"
+  },
+  {
+    "title": "What does the \"ch\" unit represent in CSS?",
+    "answer_1": "Character width of the element's font",
+    "answer_2": "Content height of the element",
+    "answer_3": "Column height of the page",
+    "answer_4": "Character height of the element's font",
+    "right_answer": "Character width of the element's font"
+  },
+  {
+    "title": "Which CSS unit is used to represent a fraction of the available space in a container?",
+    "answer_1": "px",
+    "answer_2": "em",
+    "answer_3": "fr",
+    "answer_4": "%",
+    "right_answer": "fr"
+  },
+  {
+    "title": "What is the purpose of media queries in CSS?",
+    "answer_1": "To control the display of ads on a webpage",
+    "answer_2": "To apply styles based on user interactions",
+    "answer_3": "To apply different styles based on device characteristics",
+    "answer_4": "To create animations and transitions",
+    "right_answer": "To apply different styles based on device characteristics"
+  },
+  {
+    "title": "How can you include a media query in a CSS stylesheet?",
+    "answer_1": "@media query { ... }",
+    "answer_2": "query { ... }",
+    "answer_3": "media-query { ... }",
+    "answer_4": "@query { ... }",
+    "right_answer": "@media query { ... }"
+  },
+  {
+    "title": "What is the \"max-width\" value often used for in media queries?",
+    "answer_1": "To target small screens or mobile devices",
+    "answer_2": "To target large screens or desktop devices",
+    "answer_3": "To target medium-sized screens or tablets",
+    "answer_4": "To target high-resolution screens",
+    "right_answer": "To target small screens or mobile devices"
+  },
+  {
+    "title": "How can you target devices with both a minimum and maximum width using a media query?",
+    "answer_1": "@media (min-width: ...) and (max-width: ...) { ... }",
+    "answer_2": "@media (min-width: ...) or (max-width: ...) { ... }",
+    "answer_3": "@media (min-width: ...) not (max-width: ...) { ... }",
+    "answer_4": "@media (min-width: ...) xor (max-width: ...) { ... }",
+    "right_answer": "@media (min-width: ...) and (max-width: ...) { ... }"
+  },
+  {
+    "title": "Which media feature allows you to target devices with a specific screen resolution?",
+    "answer_1": "resolution",
+    "answer_2": "screen-resolution",
+    "answer_3": "device-resolution",
+    "answer_4": "min-resolution",
+    "right_answer": "resolution"
+  }
+]
