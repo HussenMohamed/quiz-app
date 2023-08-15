@@ -6,6 +6,9 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #B8C7DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .quiz-app {
@@ -14,10 +17,11 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    position: absolute;
+    margin: 30px 0px;
+    /* position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); */
 }
 @media only screen and (max-width: 600px) {
     .quiz-app {
@@ -42,16 +46,25 @@ body {
 
 .quiz-app .quiz-area {
     margin: 10px 0px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
 .quiz-app .quiz-area h2 {
     font-size: 2rem;
+    word-wrap: break-word;
 }
 @media only screen and (max-width: 600px) {
     .quiz-app .quiz-area h2 {
         font-size: 20px;
     }
+}
+
+.quiz-app .answers-area {
+    min-height: 280px;
 }
 
 .quiz-app .answers-area .answer input {
@@ -119,7 +132,6 @@ body {
     .quiz-app .buttons .next-button,
     .quiz-app .buttons .back-button{
         padding: 10px;
-
         font-size: 16px;
     }
 }
@@ -164,4 +176,51 @@ body {
 
 .quiz-app .bullets .countdown {
     color: #36454F;
+}
+
+.circular-progress {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background: conic-gradient(#7B349C 3.6deg, #ededed 0deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.circular-progress::before {
+    content: '';
+    position: absolute;
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.progress-value {
+    position: relative;
+    font-size: 50px;
+    font-weight: bold;
+    color: #7B349C;
+}
+
+.box {
+    border-bottom: 2px solid #ccc;
+    padding: 10px 0px;
+    color: #36454F;
+}
+
+.box .answers-rev {
+    display: flex;
+    flex-direction: column;
+}
+
+.box .answers-rev .right-answer {
+    color: rgb(86, 192, 86);
+}
+
+.box .answers-rev .wrong-answer {
+    color: rgb(231, 121, 140);
 }
