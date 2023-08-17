@@ -9,6 +9,7 @@
     --backgroundColor: #f1f8fc;
     --lightOne: #919191;
     --lightTwo: #aaa;
+    --darkOne: #312f3a;
     --darkTwo: #45424b;
 
 }
@@ -45,6 +46,11 @@ header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 15;
+}
+
+.overlay {
+    display: none;
 }
 
 .logo {
@@ -94,3 +100,228 @@ header .container {
     background-color: var(--hoverColor);
     transform: scale(1) !important;
 }
+
+.hamburger-menu {
+    position: relative;
+    z-index: 99;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburger-menu .bar {
+    position: relative;
+    width: 100%;
+    height: 3px;
+    background-color: var(--darkTwo);
+    transition: 0.5s;
+}
+.bar::before, .bar::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--darkTwo);
+    border-radius: 3px;
+    transition: 0.5s;
+}
+
+.bar::before {
+    transform: translateY(-8px);
+}
+
+.bar::after {
+    transform: translateY(8px);
+}
+
+.big-wrapper.active .hamburger-menu .bar{
+    background-color: transparent;
+}
+
+.big-wrapper.active .hamburger-menu .bar::before{
+    transform: translateY(0) rotate(45deg);
+}
+
+.big-wrapper.active .hamburger-menu .bar::after{
+    transform: translateY(0) rotate(-45deg);
+}
+
+.showcase-area .container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.big-title {
+    font-size: 1.4rem;
+    color: var(--darkOne);
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+.text {
+    color: var(--lightOne);
+    font-size: 1.1rem;
+    margin: 1.9rem 0 2.5rem;
+    line-height: 2.3;
+}
+
+.showcase-area .btn {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.person {
+    width: 123%;
+}
+
+@keyframes appear {
+    0% {
+        clip-path: circle(30% at -25% -25%);
+    }
+    100% {
+        clip-path: circle(150% at 0 0);
+    }
+}
+
+@media screen and (max-width: 870px) {
+    
+    .hamburger-menu {
+        display: flex;
+    }
+
+    .links {
+        position: fixed;
+        top: 0;
+        right: 0;
+        max-width: 450px;
+        width: 100%;
+        height: 100%;
+        background-color: var(--mainColor);
+        z-index: 95;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 50px 2px rgba(0,0,0,0.4);
+        transform: translateX(100%);
+        transition: 0.5s;
+    }
+
+    .links a {
+        color: #fff;
+        margin-left: 0;
+        padding: 2rem 0;
+    }
+
+    .links a:hover {
+        color: #fff;
+    }
+
+    .links ul {
+        flex-direction: column;
+    }
+
+    .links .btn {
+        background: none;
+    }
+
+    .overlay {
+        display: block;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.5s;
+    }
+
+    .big-wrapper.active .links {
+        transform: translateX(0);
+        box-shadow: 0 0 50px 2px rgab(0,0,0,0.4);
+    }
+
+    .big-wrapper.active .overlay {
+        opacity: 1;
+        
+    }
+
+    .showcase-area {
+        padding: 2.5rem 0;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .showcase-area .container {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .big-title {
+        font-size: 1.1rem;
+    }
+
+    .text {
+        font-size: 0.95rem;
+        margin: 1.4rem 0 1.5rem;
+    }
+    .person {
+        width: 100%;
+        transform: none;
+    }
+
+    .logo h3 {
+        font-size: 1.25rem;
+    }
+
+
+}
+
+
+.one h1 {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    /* font-family: "Raleway", sans-serif; */
+    /* font-weight: 300; */
+    font-size: 40px;
+    color: var(--darkOne);
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+}
+
+.one h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: var(--mainColor);
+}
+.one h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: var(--mainColor);
+}
+  
