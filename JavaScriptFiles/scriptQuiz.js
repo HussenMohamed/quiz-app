@@ -2,16 +2,24 @@
 const quizApp = document.querySelector('.quiz-app');
 const questionArea = document.querySelector('.quiz-area');
 const countSpan = document.querySelector('.quiz-info .count span');
+const categorySpan = document.querySelector('.quiz-info .category span');
 const bulletsElement = document.querySelector('.bullets');
 const bulletsSpans = document.querySelector('.bullets .spans');
 const answersArea = document.querySelector('.answers-area');
 const nextButton = document.querySelector('.next-button');
 const backButton = document.querySelector('.back-button');
+const countdownElement = document.querySelector('.countdown');
 
 
 // SET OPTIONS
 let currentQuestion = 0;
 let rightAnswersCount = 0;
+let countdownInterval;
+
+
+let file = sessionStorage.getItem('file');
+getQuestions(file);
+
 
 // Function to just get the question from JSON file based on the category
 async function getQuestions(category) {
@@ -31,16 +39,21 @@ async function getQuestions(category) {
         // This function selects (questionsCount) number of questions randomly from the JavaScript Object 
         let chosenQuestions =  selectNumberOfQuestions(data, questionsCount);
 
+        // Update the category of the Quiz
+        updateCategory(category);
         // Create pagination bullets depending on the length of the chosenQuestion array
         createBullets(chosenQuestions.length);
+
+        // Start Countdown
+        countdown(120, chosenQuestions);
 
         // Append the question and it's choices into the page
         PostToWebPage(chosenQuestions[currentQuestion], chosenQuestions.length);
 
-        
         nextButton.addEventListener('click', function() {
             handleButtonClicked(true, chosenQuestions);
 
+            // If reached the end of the questions
             if (currentQuestion >= chosenQuestions.length) {
                 questionArea.remove();
                 answersArea.remove();
@@ -80,7 +93,6 @@ function shuffle(array) {
     return array;
 }
 
-getQuestions('js');
 
 
 // Function to post the question and choices to the DOM
@@ -112,6 +124,8 @@ function PostToWebPage(question, count) {
             radioInput.id = `answer_${i}`;
             radioInput.dataset.answer = question[`answer_${i}`];
 
+
+
             // Create Label
             const label = document.createElement('label');
             label.htmlFor = `answer_${i}`;
@@ -119,6 +133,16 @@ function PostToWebPage(question, count) {
             const labelText = document.createTextNode(question[`answer_${i}`])
             //Append the text to the label
             label.appendChild(labelText);
+
+            // see if this qustion was solved before
+            if (question.hasOwnProperty('state')) {
+                if (question.state == true && question[`answer_${i}`] === question.right_answer) {
+                    radioInput.checked = true;
+                } else if (question.state == false && question[`answer_${i}`] === question.wrong_answer){
+                    radioInput.checked = true;
+                }                
+            }
+
 
             // Append the input and the label to the main div
             mainDiv.appendChild(radioInput);
@@ -140,7 +164,7 @@ function createBullets(num) {
         let bullet = document.createElement('span')
         bullet.innerHTML = i;
 
-        // Check if it is first span
+        // Check if the counter equals the order of the currentQuestion
         if (i === currentQuestion+1) {
             bullet.classList.add('active');
         }
@@ -208,6 +232,7 @@ function handleButtonClicked(isNextButton, questions) {
         currentQuestion++;
     } else {
         currentQuestion--;
+        
     }
 
     // Append the new question and its choices into the page
@@ -217,7 +242,7 @@ function handleButtonClicked(isNextButton, questions) {
     handleBullets();
 }
 
-//
+// Function to show the result after finishing the questions
 function showResult(questions) {
 
     const circularProgress = document.createElement('div');
@@ -248,21 +273,21 @@ function showResult(questions) {
 
         progressValue.innerHTML = `<span class="right-count">${progressStartValue}</span>/<span class="total-count">${questions.length}</span>`;
 
-        circularProgress.style.background = `conic-gradient(#7B349C ${degreeFactor * progressStartValue}deg, #ededed 0deg)`;
+        circularProgress.style.background = `conic-gradient(var(--mainColor) ${degreeFactor * progressStartValue}deg, #ededed 0deg)`;
         progressStartValue++;
 
     }, speed);
 
 }
 
-//
+// Function to see your answers again and the correction of your wrong answers 
 function questionsRevision(questions) {
     // container of all the answers
     const quizRevision = document.createElement('div');
     quizRevision.classList.add('quiz-rev');
 
     for(let i = 0 ; i < 10 ; i++) {
-        //
+        // Box element holds the question and all the answers
         const box = document.createElement('div');
         box.classList.add('box');
     
@@ -278,28 +303,63 @@ function questionsRevision(questions) {
             const answer = document.createElement('span');
             answer.appendChild(document.createTextNode(questions[i][`answer_${answerIndex}`]));
 
-            //
+            // If the current answer is the right answer then add class 'right-answer'
             if ( questions[i][`answer_${answerIndex}`] == questions[i][`right_answer`]) {
                 answer.classList.add('right-answer');
-            }
 
-            if (questions[i].state === false) {
+            } else if (questions[i].state === false) {
                 if (questions[i][`answer_${answerIndex}`] == questions[i].wrong_answer) {
+                    // if the current answer is the wrong answer that the user had chosen
+                    answer.classList.add('wrong-answer');
+                } else if (questions[i].wrong_answer == 'none') {
+                    // If the user did not choose any answer
                     answer.classList.add('wrong-answer');
                 }
+            } else if (!questions[i].hasOwnProperty('state')) {
+                // If timer is passed without slving the rest of the questions
+                answer.classList.add('wrong-answer');
             }
             answersRev.appendChild(answer);
         }
-
-        //
         box.appendChild(answersRev);
-
-        //
         quizRevision.appendChild(box);
-
-        //
         quizApp.appendChild(quizRevision);
-
     }
+}
 
+//update Category of the quiz in the quiz info
+function updateCategory(category) {
+    if(category === 'html'){
+        categorySpan.innerHTML = 'HTML';
+    } else if (category === 'css') {
+        categorySpan.innerText = 'CSS';
+    } else {
+        categorySpan.innerText = 'JavaScript';
+    }
+}
+
+// function to control the countdown timer
+function countdown(duration, questions) {
+    if (currentQuestion < questions.length) {
+        let minutes, seconds;
+        countdownInterval = setInterval(() => {
+            // Get the minutes only (division operator)
+            minutes = parseInt(duration / 60);
+
+            // Get the seconds only (modulus operator)
+            seconds = parseInt(duration % 60);
+
+            minutes = minutes < 10 ? `0${minutes}` : minutes ; 
+            seconds = seconds < 10 ? `0${seconds}` : seconds ;
+
+            countdownElement.innerHTML = `${minutes}:${seconds}`;
+            if (--duration < 0) {
+                clearInterval(countdownInterval);
+                questionArea.remove();
+                answersArea.remove();
+                showResult(questions);
+                questionsRevision(questions);
+            }
+        }, 1000);
+    }
 }

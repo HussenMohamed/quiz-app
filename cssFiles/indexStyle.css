@@ -2,10 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
+
 :root {
-    --mainColor: #64bcf4;
-    --hoverColor: #5bacdf;
+    --mainColor: #007bff;
+    --hoverColor: #0056b3;
     --backgroundColor: #f1f8fc;
     --lightOne: #919191;
     --lightTwo: #aaa;
@@ -13,8 +15,16 @@
     --darkTwo: #45424b;
 
 }
+
+html {
+    scroll-behavior: smooth;
+}
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section.main {
+    min-height: 100vh;
 }
 
 img {
@@ -26,11 +36,10 @@ a {
 }
 
 .big-wrapper {
-    padding: 1.7rem 0 2rem;
+    padding: 1.7rem 0 0;
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background-color: var(--backgroundColor);
 }
 
 .container {
@@ -41,7 +50,9 @@ a {
     padding: 0 3rem;
     z-index: 10;
 }
-
+header {
+    margin-bottom: 30px;
+}
 header .container {
     display: flex;
     justify-content: space-between;
@@ -149,7 +160,18 @@ header .container {
 .big-wrapper.active .hamburger-menu .bar::after{
     transform: translateY(0) rotate(-45deg);
 }
-
+.showcase-area::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -24px;
+    height: 100%;
+    width: 100%;
+    background-color: var(--backgroundColor);
+    z-index: -1;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+}
 .showcase-area .container {
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -177,8 +199,22 @@ header .container {
 
 .person {
     width: 123%;
+    position: relative;
+    animation: up-and-down 3s linear infinite;
 }
 
+
+@keyframes up-and-down {
+
+   0%,
+   100% {
+     top: 0;
+   }
+
+   50% {
+     top: 30px;
+   }
+}
 @keyframes appear {
     0% {
         clip-path: circle(30% at -25% -25%);
@@ -189,7 +225,9 @@ header .container {
 }
 
 @media screen and (max-width: 870px) {
-    
+    section.main {
+        margin-bottom: 40px;
+    }
     .hamburger-menu {
         display: flex;
     }
@@ -285,20 +323,21 @@ header .container {
 
 }
 
+.features-area {
+    padding: 20px;
+    background-color: white;
+    min-height: 65vh;
+}
 
 .one h1 {
     position: relative;
     padding: 0;
     margin: 0;
-    /* font-family: "Raleway", sans-serif; */
-    /* font-weight: 300; */
+
     font-size: 40px;
     color: var(--darkOne);
-    -webkit-transition: all 0.4s ease 0s;
-    -o-transition: all 0.4s ease 0s;
     transition: all 0.4s ease 0s;
     text-align: center;
-    text-transform: uppercase;
     padding-bottom: 5px;
 }
 
@@ -319,9 +358,132 @@ header .container {
     display: block;
     content: "";
     position: relative;
-    margin-top: 25px;
+    margin-top: 8px;
     left: 50%;
     margin-left: -50px;
     background-color: var(--mainColor);
 }
   
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0;
+    color: var(--darkTwo);
+}
+
+.card a {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card a:hover {
+    background-color: #0056b3;
+}
+
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.about-us h4 {
+    margin-bottom:20px;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.about-us p {
+    max-width: 40vw;
+    line-height: 30px;
+    font-size: 1.2rem;
+    /* line-height: 1.4; */
+}
+
+@media screen and (max-width: 870px) {
+    .about-us p {
+        max-width: 100%;
+        font-size: 0.9rem;
+    }
+}
+.social-links ul {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s;
+}
+
+.social-links i {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.social-links a:hover {
+    color: var(--mainColor);
+}

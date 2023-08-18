@@ -1,6 +1,18 @@
-* {
-    box-sizing: border-box;
+*, *::before, *::after {
+    padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainColor: #007bff;
+    --hoverColor: #0056b3;
+    --backgroundColor: #f1f8fc;
+    --lightOne: #919191;
+    --lightTwo: #aaa;
+    --darkOne: #312f3a;
+    --darkTwo: #45424b;
+
 }
 
 body {
@@ -40,8 +52,7 @@ body {
 }
 
 .quiz-app .quiz-info .category span{
-    color: #7B349C;
-    /* font-weight: bold; */
+    color: var(--mainColor);
 }
 
 .quiz-app .quiz-area {
@@ -106,10 +117,11 @@ body {
 }
 
 .quiz-app .answers-area .answer input:checked + label::before {
-    height: 6px;
-    width: 6px;
-    border: 4px solid white;
+    height: 10px;
+    width: 10px;
+    border: 3px solid white;
     background-color: #36454F;
+    z-index: 100;
 }
 
 .quiz-app .buttons {
@@ -135,11 +147,15 @@ body {
         font-size: 16px;
     }
 }
+
 .quiz-app .buttons .next-button {
     color: white;
-    background-color: #7B349C;
+    background-color: var(--mainColor);
+    transition: 0.3s;
 }
-
+.quiz-app .buttons .next-button:hover {
+    background-color: var(--hoverColor);
+}
 .quiz-app .buttons .back-button {
     color: #36454F;
 }
@@ -170,7 +186,7 @@ body {
     color: #36454F;
 }
 .quiz-app .bullets .spans span.active {
-    background-color: #7B349C;
+    background-color: var(--mainColor);
     color: white;
 }
 
@@ -183,7 +199,7 @@ body {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    background: conic-gradient(#7B349C 3.6deg, #ededed 0deg);
+    background: conic-gradient(#007bff 3.6deg, #ededed 0deg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,18 +219,32 @@ body {
     position: relative;
     font-size: 50px;
     font-weight: bold;
-    color: #7B349C;
+    color: var(--mainColor);
 }
 
 .box {
-    border-bottom: 2px solid #ccc;
     padding: 10px 0px;
-    color: #36454F;
+    /* color: #36454F; */
 }
 
+.box:not(:last-child) {
+    border-bottom: 1px solid #d3d3d3;
+}
+.box h4 {
+    font-size: 1.1rem;
+    color: var(--darkOne);
+}
+@media only screen and (max-width: 600px) {
+    .box h4.question-rev{
+        font-size: 0.9rem;
+    }
+}
 .box .answers-rev {
     display: flex;
     flex-direction: column;
+    color: var(--darkTwo);
+    margin: 10px 0 0 0;
+
 }
 
 .box .answers-rev .right-answer {

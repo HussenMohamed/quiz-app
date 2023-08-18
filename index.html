@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
-    <link rel="stylesheet" href="indexStyle.css">
+    <link rel="stylesheet" href="cssFiles/indexStyle.css">
+    <script src="https://kit.fontawesome.com/a24ea2e0b9.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
 </head>
 <body>
     <main>
@@ -19,8 +21,8 @@
     
                         <div class="links">
                             <ul>
-                                <li><a href="">Feature</a></li>
-                                <li><a href="" class="btn">Test Yourself</a></li>
+                                <li><a href="#features">Features</a></li>
+                                <li><a href="#features" class="btn">Get Started</a></li>
                             </ul>
                         </div>
     
@@ -35,15 +37,13 @@
                     <div class="container">
                         <div class="left">
                             <div class="big-title">
-                                <h1>Future is here,</h1>
-                                <h1>Start Exploring now.</h1>
+                                <h1>Welcome to ProgQz.</h1>
+                                <h1>Test Your Knowledge in HTML, CSS, and JavaScript.</h1>
                             </div>
                             <p class="text">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit.  repudiandae cum deserunt error et corrupti, illum sapiente accusantium.
+                                Choose a topic that interests you, take the quiz, and challenge yourself to achieve a high score. With ProgQz, you can stay up-to-date with the latest concepts and techniques in web development while having fun!
                             </p>
-                            <div class="cta">
-                                <a href="#" class="btn">Get Started</a>
-                            </div>
+
                         </div>
                         <div class="right">
                             <img src="images/exam.svg" alt="Person Image" class="person">
@@ -52,13 +52,46 @@
                 </div>
             </section>
 
-            <div class="features-area">
+            <div class="features-area" id="features">
                 <div class="one">
-                    <h1>Style One</h1>
+                    <h1>Features</h1>
+                </div>
+                <div class="card-grid container">
+                    <div class="card card-1">
+                        <img src="images/html-v2.png" alt="Card Image 1">
+                        <h3>HTML</h3>
+                        <a href="quiz.html">Go To The Quiz</a>
+                    </div>
+                    <div class="card card-2">
+                        <img src="images/css-v2.png" alt="Card Image 2">
+                        <h3>CSS</h3>
+                        <a href="quiz.html">Go To The Quiz</a>
+                    </div>
+                    <div class="card card-3">
+                        <img src="images/js-v2.png" alt="Card Image 3">
+                        <h3>JavaScript</h3>
+                        <a href="quiz.html">Go To The Quiz</a>
+                    </div>
                 </div>
             </div>
+
+            <footer class="footer">
+                <div class="about-us">
+                    <h4>ProgQz</h4>
+                    <p>
+                        ProgQz offers a collection of online multiple-choice quizzes to help you enhance your programming skills in HTML, CSS, and JavaScript. Whether you are a beginner or an experienced developer, our quizzes cover a wide range of topics to test your understanding and improve your expertise.</p>
+                </div>
+                <div class="social-links">
+                    <ul>
+                        <li><a href="https://github.com/HussenMohamed" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/hussein-mohamedd/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/hussen.mohamedd/?igshid=NTc4MTIwNjQ2YQ%3D%3D" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+            
         </div>
     </main>
-    <script src="scriptIndex.js"></script>
+    <script src="JavaScriptFiles/scriptIndex.js"></script>
 </body>
 </html>
