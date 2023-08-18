@@ -290,8 +290,6 @@ function handleRightAnswers(questions) {
             rightAnswersCount++;
         }
     });
-    console.log('From handleRightAnswers function:');
-    console.log(rightAnswersCount);
     return rightAnswersCount;
 }
 // Function to see your answers again and the correction of your wrong answers 
