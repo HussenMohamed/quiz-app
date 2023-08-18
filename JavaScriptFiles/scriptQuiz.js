@@ -19,6 +19,11 @@ let countdownInterval;
 let file = sessionStorage.getItem('file');
 getQuestions(file);
 
+ // Check if the page was reloaded using F5 or Ctrl+R
+ if (performance.navigation.type === 1) {
+    // Redirect to the index page
+    window.location.href = 'index.html';
+}
 
 // Function to just get the question from JSON file based on the category
 async function getQuestions(category) {
