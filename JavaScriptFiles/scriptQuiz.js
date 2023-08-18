@@ -44,7 +44,7 @@ async function getQuestions(category) {
         createBullets(chosenQuestions.length);
 
         // Start Countdown
-        countdown(10, chosenQuestions);
+        countdown(120, chosenQuestions);
 
         // Append the question and it's choices into the page
         PostToWebPage(chosenQuestions[currentQuestion], chosenQuestions.length);
