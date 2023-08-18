@@ -13,7 +13,6 @@ const countdownElement = document.querySelector('.countdown');
 
 // SET OPTIONS
 let currentQuestion = 0;
-let rightAnswersCount = 0;
 let countdownInterval;
 
 
@@ -45,7 +44,7 @@ async function getQuestions(category) {
         createBullets(chosenQuestions.length);
 
         // Start Countdown
-        countdown(120, chosenQuestions);
+        countdown(10, chosenQuestions);
 
         // Append the question and it's choices into the page
         PostToWebPage(chosenQuestions[currentQuestion], chosenQuestions.length);
@@ -192,8 +191,7 @@ function checkAnswer(question, rightAnswer) {
     }
 
     if (chosenAnswer == rightAnswer) {
-        // increase rightAnswersCount and create a new key in the object called state = true
-        rightAnswersCount++;
+        // Create a new key in the object called state = true
         question.state = true;
     } else {
         // create a new keys in the object => state = false | wrong_answer = chosenAnswer 
@@ -245,6 +243,9 @@ function handleButtonClicked(isNextButton, questions) {
 // Function to show the result after finishing the questions
 function showResult(questions) {
 
+    // Function to get the number of the right answers
+    const rightAnswersCount = handleRightAnswers(questions);
+
     const circularProgress = document.createElement('div');
     circularProgress.classList.add('circular-progress');
 
@@ -280,6 +281,19 @@ function showResult(questions) {
 
 }
 
+// Function to get the number of the right answers
+function handleRightAnswers(questions) {
+    let rightAnswersCount = 0;
+    // Iterate on all the questions and get the right answers count
+    questions.forEach(question => {
+        if (question.state === true) {
+            rightAnswersCount++;
+        }
+    });
+    console.log('From handleRightAnswers function:');
+    console.log(rightAnswersCount);
+    return rightAnswersCount;
+}
 // Function to see your answers again and the correction of your wrong answers 
 function questionsRevision(questions) {
     // container of all the answers
@@ -340,26 +354,25 @@ function updateCategory(category) {
 
 // function to control the countdown timer
 function countdown(duration, questions) {
-    if (currentQuestion < questions.length) {
-        let minutes, seconds;
-        countdownInterval = setInterval(() => {
-            // Get the minutes only (division operator)
-            minutes = parseInt(duration / 60);
 
-            // Get the seconds only (modulus operator)
-            seconds = parseInt(duration % 60);
-
-            minutes = minutes < 10 ? `0${minutes}` : minutes ; 
-            seconds = seconds < 10 ? `0${seconds}` : seconds ;
-
-            countdownElement.innerHTML = `${minutes}:${seconds}`;
-            if (--duration < 0) {
-                clearInterval(countdownInterval);
-                questionArea.remove();
-                answersArea.remove();
-                showResult(questions);
-                questionsRevision(questions);
-            }
-        }, 1000);
-    }
+    let minutes, seconds;
+    countdownInterval = setInterval(() => {
+        if (currentQuestion >= questions.length) {
+            return;
+        }
+        // Get the minutes only (division operator)
+        minutes = parseInt(duration / 60);
+        // Get the seconds only (modulus operator)
+        seconds = parseInt(duration % 60);
+        minutes = minutes < 10 ? `0${minutes}` : minutes ; 
+        seconds = seconds < 10 ? `0${seconds}` : seconds ;
+        countdownElement.innerHTML = `${minutes}:${seconds}`;
+        if (--duration < 0 || currentQuestion >= questions.length) {
+            clearInterval(countdownInterval);
+            questionArea.remove();
+            answersArea.remove();
+            showResult(questions);
+            questionsRevision(questions);
+        }
+    }, 1000);
 }
